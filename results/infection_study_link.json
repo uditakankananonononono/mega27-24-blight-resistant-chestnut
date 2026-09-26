@@ -1,0 +1,22 @@
+{
+  "alignment_reference_project": "PRJNA527178",
+  "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9901152/",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "infection_project": "PRJCA009200",
+  "limitations": [
+    "GSA run page unavailable from current fetch (source not available); no raw data or run metadata from CRA006690 fetched",
+    "Article reports 15 cDNA libraries, not 15 independently verified accession records",
+    "No hypothesis test, benchmark, resistance claim or scientific discovery"
+  ],
+  "linked_gsa_study": "CRA006690",
+  "project_page": "https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA009200",
+  "sha256": {
+    "data/sources/PRJCA009200_ngdc.html": "8aa03f803dfbc81fe18d8111ccfaa52291769ca7d3f4aecc8e4fac7989a7c9bb",
+    "data/sources/pmc9901152.xml": "ff82185faf2cf5b285f568a6302b2a06501e4443f16cf2fbf64ebb6d76800662"
+  }
+}
