@@ -1,0 +1,31 @@
+{
+  "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9901152/",
+  "dataset_curation_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/",
+  "ena": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA527178&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Cstudy_accession%2Clibrary_strategy%2Cscientific_name&format=tsv",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "infection_assay_run_ids_from_this_citation": [],
+  "library_strategy_counts": {
+    "Hi-C": 2,
+    "RNA-Seq": 20,
+    "WGS": 250
+  },
+  "limitations": [
+    "Reference-genome citation is not the paper\u2019s infection assay accession",
+    "272 run metadata rows do not mean 272 independently fetched-and-used datasets",
+    "No raw reads or infection phenotype results were fetched",
+    "Darling 58 efficacy and environmental safety are unresolved and require current primary evidence"
+  ],
+  "paper_uses_study_as_reference_genome": true,
+  "run_count": 272,
+  "sha256": {
+    "data/sources/PRJNA527178_ena_runs.tsv": "56358132024c4b17d54ff94e61b4af15d69c6cc16163c36d5e23424b2e836a67",
+    "data/sources/pmc12103606.xml": "7eed2f0e23bbdeee138892dd186b3a099e0549af08a15f94a2e9c647c4f8eac2",
+    "data/sources/pmc9901152.xml": "ff82185faf2cf5b285f568a6302b2a06501e4443f16cf2fbf64ebb6d76800662"
+  },
+  "study": "PRJNA527178"
+}
