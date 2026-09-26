@@ -1,0 +1,86 @@
+{
+  "experiment_count": 15,
+  "experiment_search_url": "https://ngdc.cncb.ac.cn/gsa/search/getSearchByAccession?searchTerm=CRA006690",
+  "experiments": [
+    {
+      "experiment_accession": "CRX405949",
+      "source_label": "Cm0-1"
+    },
+    {
+      "experiment_accession": "CRX405950",
+      "source_label": "Cm0-2"
+    },
+    {
+      "experiment_accession": "CRX405951",
+      "source_label": "Cm0-3"
+    },
+    {
+      "experiment_accession": "CRX405952",
+      "source_label": "CmC3-1"
+    },
+    {
+      "experiment_accession": "CRX405953",
+      "source_label": "CmC3-2"
+    },
+    {
+      "experiment_accession": "CRX405954",
+      "source_label": "CmC3-3"
+    },
+    {
+      "experiment_accession": "CRX405955",
+      "source_label": "CmC9-1"
+    },
+    {
+      "experiment_accession": "CRX405956",
+      "source_label": "CmC9-2"
+    },
+    {
+      "experiment_accession": "CRX405957",
+      "source_label": "CmC9-3"
+    },
+    {
+      "experiment_accession": "CRX405958",
+      "source_label": "CmT3-1"
+    },
+    {
+      "experiment_accession": "CRX405959",
+      "source_label": "CmT3-2"
+    },
+    {
+      "experiment_accession": "CRX405960",
+      "source_label": "CmT3-3"
+    },
+    {
+      "experiment_accession": "CRX405961",
+      "source_label": "CmT9-1"
+    },
+    {
+      "experiment_accession": "CRX405962",
+      "source_label": "CmT9-2"
+    },
+    {
+      "experiment_accession": "CRX405963",
+      "source_label": "CmT9-3"
+    }
+  ],
+  "five_source_label_group_counts": {
+    "0": 3,
+    "C3": 3,
+    "C9": 3,
+    "T3": 3,
+    "T9": 3
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Source labels resemble original article five conditions x three replicates, but exact label semantics not independently validated against run payload",
+    "Experiment metadata labels are not 15 fetched sequencing read datasets or new biological evidence",
+    "GSA individual experiment detail pages return a client-side shell/SOURCE_NOT_AVAILABLE to current fetch; no run files accessed"
+  ],
+  "search_url": "https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA006690",
+  "sha256": "077f84870b425260b057dbc493f9d570f90f61c8c4bb849a5fa9a309a7e4bf92"
+}

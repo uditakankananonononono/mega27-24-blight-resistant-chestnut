@@ -7,7 +7,7 @@ R=Path(__file__).resolve().parents[1]
 p=R/'data/sources/CRA006690_experiments_search.html';h=p.read_text()
 records=[]
 for m in re.finditer(r'<div class="result_area">',h):
- block=h[m.start():m.start()+1400]
+ block=h[m.start():m.start()+2500]
  title=re.search(r'result_context">([^<]+)',block);acc=re.search(r'href="[^"]+/CRA006690/(CRX\d+)"',block)
  if title and acc:records.append({'experiment_accession':acc.group(1),'source_label':unescape(title.group(1))})
 assert len(records)==15 and len({x['experiment_accession'] for x in records})==15
