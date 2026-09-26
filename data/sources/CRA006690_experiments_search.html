@@ -1,0 +1,1742 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html>
+<head>
+    <title>Search - GSA - CNCB-NGDC</title>
+    
+<base href="https://ngdc.cncb.ac.cn/gsa/"/>
+<!-- <link rel="stylesheet" type="text/css" href="https://ngdc.cncb.ac.cn/cdn/css/page.min.css"/> -->
+<link rel="stylesheet" type="text/css" href="css/cra/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/cra/main.css?v=1.1" />
+<link rel="stylesheet" type="text/css" href="css/cra/dropdown_langauge.css?v=1.1"/>
+<script type="text/javascript" src="js/cra/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/cra/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lang.js"> </script>
+<script type="text/javascript" src="js/cra/search.js?v=1.2"></script>
+
+
+<script src="https://ngdc.cncb.ac.cn/cdn/js/headerfooter.js" data-email="gsa(at)cncb.ac.cn" data-phone="86-10-84097340">
+
+<script type="text/javascript" src="https://ngdc.cncb.ac.cn/cdn/js/bigsearch.js"></script>
+
+<script type="text/javascript" src="js/statistics.js"> </script>
+ 
+
+    <link rel="stylesheet" type="text/css" href="css/cra/search_list.css" />
+</head>
+
+
+    <div class="container" style="background-image:url(img/cra/bj.jpg);">
+		<div class="row">
+			<div class="col-md-3 col-sm-12 col-xs-12 pull-left">
+				&nbsp;&nbsp;&nbsp;&nbsp;<a  href="/gsa"><img src="img/cra/in_logo.png" /></a>
+			</div>
+			<div class="col-md-7 col-sm-12 col-xs-12 pull-left" id="search" data-db="GSA" data-example="CRA000112,CRX006656,SRX10535559,human" style="margin-top:20px;" data-tip="CRA006690" data-lan="高级检索"></div>
+
+			<div class="col-md-2 col-sm-12 col-xs-12 pull-right" style="margin-top:10px;">
+				<a href="https://globalbiodata.org/" target="_blank"><img style="width: 55%;margin-left: 55px;max-width: 120px;max-height: 120px;" src="img/cra/gcbrlogo.png" alt="logo"></a>
+			</div>
+		</div>
+		
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="css/cra/menu.css"/>
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle = "collapse"  data-target = "#target-menu">
+            <span class="sr-only">GSA</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id = "target-menu" style="background-color:#3296c8;">
+          <ul class="nav navbar-nav">
+            <li><div class="logo" onclick="window.open('https://ngdc.cncb.ac.cn', '_blank');"></div></li>
+            <li><a class="menu-a" style="margin-top: 1px;" href="">主页</a></li>
+            <li><a class="menu-a" style="margin-top: 1px;" href="https://ngdc.cncb.ac.cn/gsub/submit/gsa/list">数据提交</a> </li>
+            <li><a class="menu-a" style="margin-top: 1px;" href="browse/">数据浏览</a></li>
+            <li><a class="menu-a" style="margin-top: 1px;" href="search/advanced">信息检索</a></li>
+            <li><a class="menu-a" style="margin-top: 1px;" href="statistics">数据统计</a></li>
+            
+            
+            <li class="dropdown">
+                <a class="menu-a" style="margin-top: 1px;" data-toggle="dropdown">
+                    帮助和支持<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu" style="width: 136px">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="javascript:;">标准</a>
+                        <ul class="dropdown-menu-support1" style="padding: 0;margin: 0;">
+                            <li><a href="support/standardsM">数据模型</a></li>
+                            <li><a href="support/standardsGsa">数据标准</a></li>
+                            <li><a href="support/standardsCuration">数据质控</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="support/tutorial">使用说明</a></li>
+                    <li><a href="support/faq">常见问题</a></li>
+                    	
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="javascript:;">工具</a>
+                        <ul class="dropdown-menu-support1" style="padding: 0;margin: 0;">
+                            <li><a href="https://qtp.cncb.ac.cn/qtrans/v2/home">Qtrans</a></li>
+                            <li><a href="https://qzip.cncb.ac.cn">Qzip</a></li>
+                        </ul>
+                    </li>	
+                    	
+                    <li><a href="support/documents">文档</a></li>
+                    <li><a href="support/contact">联系我们</a></li>
+
+                </ul>
+            </li>
+            
+                
+            
+            
+            <input type="hidden" value="null" id="uid"/>
+        </ul>
+        
+<ul class="nav navbar-nav pull-right">
+    <div class="dropdownLangauge" >
+        <a class="menu-a" style="margin-top: 1px;" id="myBtn2">语言/language <span class="caret"></span>
+
+        </a>
+        <div class="dropdown-content1"  id="dropdownStyle">
+            <ul class="dropdown-menu1" aria-labelledby="dropdownMenu1">
+                <a class="language" name="en_US" ><li style="list-style-type:none"> <img src="img/cra/countriesFlag/england.svg" style="height: auto;width: 20px;mix-blend-mode:multiply;"> English</li></a>
+                <a class="language" name="zh_CN" ><li style="list-style-type:none"> <img src="img/cra/countriesFlag/china.svg" style="height: auto;width: 20px;background: none;mix-blend-mode:multiply"> 中文</li></a>
+                <a class="language" name="fr_FR" ><li style="list-style-type:none"> <img src="img/cra/countriesFlag/french.svg" style="height: auto;width: 20px;background: none;mix-blend-mode:multiply"> Français</li></a>
+                
+                
+            </ul>
+        </div>
+    </div>
+</ul>
+
+
+        <ul class="nav navbar-nav pull-right" style="margin-top: 1px;">
+            
+            
+                <li class="pull-right" style="margin-top: 1px;">
+                    <a class="login-a-new pull-right" href="https://sso.cncb.ac.cn/account/register/personal?service=https://ngdc.cncb.ac.cn/gsa/account/casregister"
+                       style="background:url(img/cra/reg003.png) left center no-repeat;">注 册</a>
+                </li>
+                <li class="pull-right">
+                    <a class="login-a-new pull-right" href="https://sso.cncb.ac.cn/login?service=https://ngdc.cncb.ac.cn/gsa/login"
+                       style="background:url(img/cra/reg002.png) left center no-repeat;">登 陆</a>
+                </li>
+            
+        </ul>
+    </div>
+</nav>
+<script type="text/javascript">
+</script>
+
+    </div>
+<body>
+<div class="container">
+    
+    <div class="searchBackground" style="padding-top: 30px">
+        
+            <div id="left">
+                
+                
+                <div style="padding: 10px;">
+                    <div class="block_index">
+                        <ul class="center_block">
+                            
+                                <span class="index_title">Center</span>
+                            
+                            
+                                
+                                    
+                                        <li class="classification_option">
+                                            <a onclick="selectSource('NGDC', 'center')">NGDC</a>
+                                            (15)
+                                            
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="block_index">
+                        <ul class="downloadable_block">
+                            
+                                <span class="index_title">Downloadable</span>
+                            
+                            
+                                
+                                    
+                                        <li class="classification_option">
+                                            <a onclick="selectSource('1', 'downloadable')">
+                                                
+                                                    Downloadable
+                                                
+                                                
+                                            </a>
+                                            (15)
+                                            
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </div>
+                    <div class="block_index">
+                        <ul class="fileType_block">
+                            
+                                <span class="index_title">File type</span>
+                            
+                            
+                                
+                                    
+                                        
+                                        
+                                            <li class="classification_option">
+
+
+
+
+
+
+
+                                                <a onclick="selectSource('fastq', 'fileType')">fastq</a>
+
+                                                (15)
+                                                
+                                            </li>
+                                        
+                                    
+                                
+                            
+                        </ul>
+                    </div>
+
+                    <div class="block_index">
+                        <ul class="platform_block">
+                            
+                                <span class="index_title">Platform</span>
+                            
+                            
+                                
+                                    
+                                        <li class="classification_option">
+                                            <a onclick="selectSource('ILLUMINA', 'platform')">ILLUMINA</a>
+                                            (15)
+                                            
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </div>
+                    <div class="block_index">
+                        <ul class="source_block">
+                            
+                                <span class="index_title">Source</span>
+                            
+                            
+                                
+                                    
+                                        <li class="classification_option">
+                                            <a onclick="selectSource('TRANSCRIPTOMIC','source')">
+                                                TRANSCRIPTOMIC
+                                            </a>(15)
+                                            
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </div>
+                    <div class="block_index">
+                        <ul class="strategy_block">
+                            
+                                <span class="index_title">Strategy</span>
+                            
+                            
+                                
+                                    
+                                        <li class="classification_option">
+                                            <a onclick="selectSource('RNASeq', 'strategy')">RNASeq</a>
+                                            (15)
+                                            
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </div>
+                    <div class="block_index">
+                        <ul class="selection_block">
+                            
+                                <span class="index_title">Selection</span>
+                            
+                            
+                                
+                                    
+                                        <li class="classification_option">
+                                            <a onclick="selectSource('cDNA', 'selection')">cDNA</a>
+                                            (15)
+                                            
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </div>
+
+                    <form id="selectionForm" action="/gsa/search/" namespace="/search" method="post">
+                            <input type="hidden" name="sourceSelectedItem" id="sourceSelectedItem" value=''>
+                            <input type="hidden" name="sourceSelected" id="sourceSelected" value=''>
+                            <input type="hidden" name="strategySelectedItem" id="strategySelectedItem" value=''>
+                            <input type="hidden" name="strategySelected" id="strategySelected" value=''>
+                            <input type="hidden" name="platformSelectedItem" id="platformSelectedItem" value=''>
+                            <input type="hidden" name="platformSelected" id="platformSelected" value=''>
+                            <input type="hidden" name="selectionSelectedItem" id="selectionSelectedItem" value=''>
+                            <input type="hidden" name="selectionSelected" id="selectionSelected" value=''>
+
+                            <input type="hidden" name="pageSize" id="pageSize" value=20>
+                            <input type="hidden" name="from" id="from" value=1>
+
+                            <input type="hidden" name="centerSelectedItem" id="centerSelectedItem" value=''>
+                            <input type="hidden" name="centerSelected" id="centerSelected" value=''>
+                            <input type="hidden" name="typeSelectedItem" id="typeSelectedItem" value=''>
+                            <input type="hidden" name="typeSelected" id="typeSelected" value=''>
+                            <input type="hidden" name="downloadableSelectedItem" id="downloadableSelectedItem" value=''>
+                            <input type="hidden" name="downloadableSelected" id="downloadableSelected" value=''>
+                            <input type="hidden" name="fileTypeSelectedItem" id="fileTypeSelectedItem" value=''>
+                            <input type="hidden" name="fileTypeSelected" id="fileTypeSelected" value=''>
+                            
+                            <input type="hidden" name="searchField" id="searchField" value="">
+                            <input type="hidden" name="searchTerm" id="searchItem" value="">
+                            <input type="hidden" name="additionalConditions" id="additionalConditions" value="">
+                            <input type="hidden" name="accessionSelectedList" id="accessionSelectedList" value=''>
+                            <input type="hidden" name="totalDatas" id="totalDatas" value=''>
+                            <input type="hidden" name="accFlag" id="accFlag" value='true'>
+                            <input type ="hidden" name="downLoadCount" id="downLoadCount" value="">
+                            <input type="hidden" name="accessionList" id="accessionList" value="">
+                        </form>
+
+                    </div>
+                    <div>
+                        <a style="padding-left: 18px;color: #5151ef" onclick="clearAll()">Clear all</a>
+                    </div>
+            </div>
+            <div id="middle">
+                <h4 style="margin-bottom: -25px;color: saddlebrown;">Search result:</h4>
+                <div style="left: 490px;margin-top:4px;position: absolute;display: none;" id="countDisplay" ></div>
+                <div>
+                    <div id="downloadContainer" style="float: right;margin-right: 100px">
+                        <a onclick="toggleDownloadOption()" >Send to <span> :&#9660;</span></a>
+                        <div id="downloadOption" class="download_option">
+                            <div class="download_option_content">
+                                <h5>Choose Destination</h5>
+                                <div class="divider"></div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <div>
+                                        <div class="form-check">
+                                            <div style="display: flex">
+                                                <div>
+                                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="file"> File
+                                                    <label class="form-check-label" for="radio1"></label>
+                                                </div>
+    
+    
+    
+    
+                                            </div>
+    
+    
+    
+    
+    
+    
+                                        </div>
+                                    </div>
+                                    <div id="create_files">
+                                        <div class="divider"></div>
+                                        <span id="fileCount" style="margin-bottom: 10px;"></span>
+                                        <span id="format">Format</span>
+                                        <select name="" id="downloadFile">
+    <option value="accession">Accession List</option>
+    <option value="run">RunInfo</option>
+    <option value="dataset">DataSet Accession List</option>
+
+
+</select>
+
+
+                                        <button onclick="downLoadList()" id="createFiles">Create Files</button>
+                                    </div>
+                                    <div id="clipboard">
+                                        <div class="divider"></div>
+                                        <span>Add the first 500 items.</span>
+                                        <button>Add to Clipboard</button>
+                                    </div>
+                                    <div id="runSelector">
+                                        <div class="divider"></div>
+                                        <span>
+                                                Only first 40000 experiments will be sent to Run Selector.
+                                            </span>
+                                        <span>
+                                                Your recordset contains (Todo) experiments.
+                                            </span>
+                                        <br/>
+                                        <button>Go</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="queryResult">
+                    <!-- 这里显示ES查询结果 -->
+                    <div>
+                        
+                        
+                            <div style="display: inline-block;font-size: 12px;">
+                                    
+                                <ul class="pager paging_cra">
+                                    <li class="total" style="color: brown">Total Items:&nbsp;15</li>
+                                    <li class="total" style="color: brown">Items
+                                        
+                                            1
+                                        
+                                        
+                                        of
+                                        
+                                        
+                                            20
+                                        
+                                    </li>
+                                    <li class="total" style="color: brown">Page &nbsp;
+                                        1 /
+                                        1
+                                    </li>
+                                    <li class="total">
+
+                                        
+                                        
+                                            <a class="disabled-link">First</a>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                            <a class="disabled-link">Last</a>
+                                        
+                                    </li>
+                                    <li class="total">Jump To&nbsp;<input class="page_input" size="5" id="pageInput"  value="1"/><button style="height: 23px" type="submit" onclick="jumpPage()">Go</button></li>
+                                </ul>
+                            </div>
+
+                            <div style="display: inline-block;width: 100%">
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405959"/>
+                                                <span> 1.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmT3-2</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405959" target="_blank">
+                                                            CRX405959
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405951"/>
+                                                <span> 2.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">Cm0-3</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405951" target="_blank">
+                                                            CRX405951
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405949"/>
+                                                <span> 3.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">Cm0-1</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405949" target="_blank">
+                                                            CRX405949
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405952"/>
+                                                <span> 4.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmC3-1</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405952" target="_blank">
+                                                            CRX405952
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405962"/>
+                                                <span> 5.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmT9-2</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405962" target="_blank">
+                                                            CRX405962
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405963"/>
+                                                <span> 6.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmT9-3</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405963" target="_blank">
+                                                            CRX405963
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405960"/>
+                                                <span> 7.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmT3-3</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405960" target="_blank">
+                                                            CRX405960
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405958"/>
+                                                <span> 8.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmT3-1</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405958" target="_blank">
+                                                            CRX405958
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405953"/>
+                                                <span> 9.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmC3-2</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405953" target="_blank">
+                                                            CRX405953
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405954"/>
+                                                <span> 10.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmC3-3</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405954" target="_blank">
+                                                            CRX405954
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405961"/>
+                                                <span> 11.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmT9-1</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405961" target="_blank">
+                                                            CRX405961
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405955"/>
+                                                <span> 12.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmC9-1</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405955" target="_blank">
+                                                            CRX405955
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405957"/>
+                                                <span> 13.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmC9-3</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405957" target="_blank">
+                                                            CRX405957
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405950"/>
+                                                <span> 14.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">Cm0-2</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405950" target="_blank">
+                                                            CRX405950
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                                    <div class="result_area">
+                                        <div style="display: flex;padding: 0;">
+                                            <div style="display: flex; flex-direction: column; height: 100%;margin-left: -40px;padding-right: 20px;padding-left: 5px">
+                                                <input type="checkbox" class="checkbox_class" data-value="CRX405956"/>
+                                                <span> 15.</span>
+                                            </div>
+                                            <div class="result_blocks">
+                                                
+                                                
+                                                    <div>
+                                                        <div class="title_block">
+                                                            <span class="result_title">Title: </span>
+                                                            <span class="result_context">CmC9-2</span>
+                                                        </div>
+                                                    </div>
+                                                
+
+                                                <div class="result_block">
+                                                    <div class="result_block_item">
+                                                        <span class="result_title">Accession: </span>
+                                                        
+                                                            <a href="https://ngdc.cncb.ac.cn/gsa/browse/CRA006690/CRX405956" target="_blank">
+                                                            CRX405956
+                                                            </a>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                    <div class="result_block">
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Platform name: </span>
+                                                            <span class="result_context">ILLUMINA</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Source name: </span>
+                                                            <span class="result_context">TRANSCRIPTOMIC</span>
+                                                        </div>
+
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Strategy name: </span>
+                                                            <span class="result_context">RNASeq</span>
+                                                        </div>
+                                                        <div class="result_block_item">
+                                                            <span class="result_title">Selection name: </span>
+                                                            <span class="result_context">cDNA</span>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
+                                
+                            </div>
+                        
+                        <div style="display: inline-block;font-size: 12px">
+                            <ul class="pager paging_cra">
+                                <li class="total" style="color: brown">Total Items:&nbsp;15</li>
+                                <li class="total" style="color: brown">Items
+                                    
+                                        1
+                                    
+                                    
+                                    of
+                                    
+                                    
+                                        20
+                                    
+                                </li>
+                                <li class="total" style="color: brown">Page &nbsp;
+                                    1 /
+                                    1
+                                </li>
+                                <li class="total">
+                                    
+                                    
+                                        <a class="disabled-link">First</a>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        <a class="disabled-link">Last</a>
+                                    
+                                </li>
+                                <li class="total">Jump To&nbsp;<input class="page_input" size="5" id="pageInput_bottom" style="height: 22px" value="1"/><button type="submit" onclick="jumpPageBottom()">Go</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+    </div>
+        <div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="alertModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5  class="modal-title" id="Label">提示: </h5>
+                    </div>
+                    <div class="modal-body">
+                        <span id="tipMsg"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" name="attentionDownload" id="attentionDownload" value='请求下载的数据超过100 000条，请添加条件使下载量少于100 000。'>
+        <input type="hidden" name="attentionPage" id="attentionPage" value='该条件下的数据总量超过100 000条，无法跳转到请求的页面。'>
+</div>
+
+    <script>
+        window.onload = function (){
+            document.getElementById('sourceSelected').value = ''==="true"?true:false;
+            document.getElementById('platformSelected').value = ''==="true"?true:false;
+            document.getElementById('strategySelected').value =''==="true"?true:false;
+            document.getElementById('selectionSelected').value =''==="true"?true:false;
+
+            document.getElementById('centerSelected').value = ''==="true"?true:false;
+            document.getElementById('typeSelected').value = ''==="true"?true:false;
+            document.getElementById('downloadableSelected').value =''==="true"?true:false;
+            document.getElementById('fileTypeSelected').value =''==="true"?true:false;
+
+            document.getElementById('sourceSelectedItem').value = '';
+            document.getElementById('platformSelectedItem').value = '';
+            document.getElementById('strategySelectedItem').value ='';
+            document.getElementById('selectionSelectedItem').value ='';
+
+            document.getElementById('centerSelectedItem').value = '';
+            document.getElementById('typeSelectedItem').value = '';
+            document.getElementById('downloadableSelectedItem').value ='';
+            document.getElementById('fileTypeSelectedItem').value ='';
+            // 高级检索的提交
+            document.getElementById('searchField').value ='';
+            document.getElementById('searchItem').value ='CRA006690';
+            document.getElementById('totalDatas').value ='15';
+            let additionalConditions = '';
+            if(additionalConditions.includes('&quot;')){
+                additionalConditions = decodeURIComponent(additionalConditions.replace(/&quot;/g, '"'));
+            }
+            document.getElementById('additionalConditions').value = additionalConditions
+        }
+        $(document).ready(function () {
+            let previousSearches = '';
+            if (previousSearches.length>0){
+                document.getElementById("searchTerm").value = previousSearches
+            }
+
+            $('input[name="optradio"]').change(function () {
+                let selectedValue = $(this).val();
+
+                $("#create_files, #clipboard, #runSelector").hide();
+                $("#format").css("display","block");
+                $("#downloadFile").css("display","block");
+                $("#createFiles").css("display","block");
+                if (selectedValue === 'file') {
+                    let accList = document.getElementById('accessionSelectedList').value;
+                    let count = 0;
+                    let totalDatas = '15';
+                    if(accList!=""&&accList!="[]"){
+                        if (!accList.includes('[')){
+                            accList = "["+accList+"]";
+                        }
+                        accList = JSON.parse(accList);
+                        count = accList.length;
+                        $("#fileCount").html("Download "+count+" items.");
+                        $("#downLoadCount").val(count);
+                    } else {
+                        // $("#format").css("display","none");
+                        // $("#downloadFile").css("display","none");
+                        $("#fileCount").html("Download "+totalDatas+" items.");
+                        $("#downLoadCount").val(totalDatas);
+                    }
+                    $("#format").css("display","block");
+                    $("#downloadFile").css("display","block");
+                    $("#createFiles").css("display","block");
+                    $("#create_files").show();
+                } else if (selectedValue === 'clipboard') {
+                    $("#clipboard").show();
+                } else if (selectedValue === 'option3') {
+                    $("#runSelector").show();
+                }
+            });
+
+            let accessionSelectedList = document.getElementById('accessionSelectedList').value;
+            if (accessionSelectedList.length==0){
+                accessionSelectedList=[]
+            }else {
+                if (accessionSelectedList.includes("[") || accessionSelectedList.includes("]")) {
+                    accessionSelectedList = accessionSelectedList.replace(/\[|\]/g, "");
+                }
+                document.getElementById('accessionSelectedList').value= accessionSelectedList;
+                accessionSelectedList=accessionSelectedList.replace(/"/g, '').split(',');
+                let countDisplay = document.getElementById('countDisplay');
+                let des = "Selected : ";
+                let count = accessionSelectedList.length;
+                if(accessionSelectedList[0]!=""){
+                    countDisplay.style.display = 'block';
+                    countDisplay.textContent = des + count;
+                }
+                for(let item in accessionSelectedList){
+                    $('.checkbox_class').each(function() {
+                        let dataValue = $(this).data('value');
+                        if(accessionSelectedList[item] == dataValue){
+                            $(this).prop('checked', true);
+                        }
+                    })
+                }
+            }
+        });
+        function clearAll(){
+            document.getElementById('sourceSelected').value = false;
+            document.getElementById('platformSelected').value = false;
+            document.getElementById('strategySelected').value =false;
+            document.getElementById('selectionSelected').value =false;
+            document.getElementById('centerSelected').value = false;
+            document.getElementById('typeSelected').value = false;
+            document.getElementById('downloadableSelected').value =false;
+            document.getElementById('fileTypeSelected').value =false;
+
+            document.getElementById('sourceSelectedItem').value = "";
+            document.getElementById('platformSelectedItem').value = "";
+            document.getElementById('strategySelectedItem').value = "";
+            document.getElementById('selectionSelectedItem').value = "";
+            document.getElementById('centerSelectedItem').value = "";
+            document.getElementById('typeSelectedItem').value = "";
+            document.getElementById('fileTypeSelectedItem').value = "";
+            document.getElementById('downloadableSelectedItem').value = "";
+
+            document.getElementById("searchField").value="";
+            document.getElementById("searchTerm").value="";
+            document.getElementById("additionalConditions").value="";
+            document.getElementById("accessionSelectedList").value="";
+
+            document.getElementById('selectionForm').submit();
+        }
+        function selectSource(source, filed) {
+            let selectedItem = filed + "SelectedItem"
+            let sourceSelected = ''==="true"?true:false;
+            let platformSelected = ''==="true"?true:false;
+            let strategySelected=''==="true"?true:false;
+            let selectionSelected=''==="true"?true:false;
+            let centerSelected = ''==="true"?true:false;
+            let typeSelected = ''==="true"?true:false;
+            let downloadableSelected = ''==="true"?true:false;
+            let fileTypeSelected = ''==="true"?true:false;
+
+            let sourceSelectedItem = '';
+            let platformSelectedItem = ''
+            let strategySelectedItem = '';
+            let selectionSelectedItem = '';
+            let typeSelectedItem = '';
+            let centerSelectedItem = '';
+            let downloadableSelectedItem = '';
+            let fileTypeSelectedItem = '';
+
+            if (filed==='source'){
+                document.getElementById('sourceSelected').value = !sourceSelected;
+            }
+            if (filed==='platform'){
+                document.getElementById('platformSelected').value = !platformSelected;
+            }
+            if (filed==='strategy'){
+                document.getElementById('strategySelected').value = !strategySelected;
+            }
+            if (filed==='selection'){
+                document.getElementById('selectionSelected').value = !selectionSelected;
+            }
+            if (filed==='center'){
+                document.getElementById('centerSelected').value = !centerSelected;
+            }
+            if (filed==='type'){
+                document.getElementById('typeSelected').value = !typeSelected;
+            }
+            if (filed==='downloadable'){
+                document.getElementById('downloadableSelected').value = !downloadableSelected;
+            }
+            if (filed==='fileType'){
+                document.getElementById('fileTypeSelected').value = !fileTypeSelected;
+            }
+
+            document.getElementById('sourceSelectedItem').value = sourceSelectedItem;
+            document.getElementById('platformSelectedItem').value = platformSelectedItem;
+            document.getElementById('strategySelectedItem').value = strategySelectedItem;
+            document.getElementById('selectionSelectedItem').value = selectionSelectedItem;
+
+            document.getElementById('centerSelectedItem').value = centerSelectedItem;
+            document.getElementById('typeSelectedItem').value = typeSelectedItem;
+            document.getElementById('downloadableSelectedItem').value = downloadableSelectedItem;
+            document.getElementById('fileTypeSelectedItem').value = fileTypeSelectedItem;
+            document.getElementById(selectedItem).value= source;
+            let f = document.forms['selectionForm'];
+            document.getElementById('accessionSelectedList').value = []
+            f.action="/gsa/search/";
+            document.getElementById('selectionForm').submit();
+        }
+        function toFirstPage(){
+            document.getElementById('from').value = 1;
+            document.getElementById('selectionForm').submit();
+        }
+        function toLastPage(){
+            let total = parseInt('15');
+            let pageSize= parseInt('20');
+            if (total % pageSize ==0){
+                document.getElementById('from').value = Math.floor(total / pageSize);
+            }else{
+                document.getElementById('from').value = Math.floor(total / pageSize)+1;
+            }
+            if (total>100000){
+                let attentionPage = document.getElementById("attentionPage").value
+                $('#tipMsg').html(attentionPage);
+                $('#alertModal').modal('show');
+            }else {
+                document.getElementById('selectionForm').submit();
+            }
+
+        }
+        function toPreviousPage(){
+            document.getElementById('from').value=parseInt('1')-1;
+            document.getElementById('selectionForm').submit();
+        }
+        function toNextPage(){
+            document.getElementById('from').value=parseInt('1')+1;
+            document.getElementById('selectionForm').submit();
+        }
+        function jumpPage(){
+            let pageNumber = document.getElementById("pageInput").value;
+            let totalNumber = parseInt("15");
+            let size = parseInt("20");
+            if (totalNumber % size == 0){
+                if (totalNumber / size < pageNumber){
+                    pageNumber =totalNumber / size;
+                }
+            } else {
+                if ((totalNumber / size) + 1 < pageNumber){
+                    pageNumber =(totalNumber / size) + 1;
+                }
+            }
+            if(pageNumber>5000){
+                let attentionPage = document.getElementById("attentionPage").value
+                $('#tipMsg').html(attentionPage);
+                $('#alertModal').modal('show');
+            }else {
+                document.getElementById('from').value= parseInt(pageNumber);
+                document.getElementById('selectionForm').submit();
+            }
+
+        }
+        function jumpPageBottom(){
+            let pageNumber = document.getElementById("pageInput_bottom").value;
+            let totalNumber = parseInt("15");
+            let size = parseInt("20");
+            if (totalNumber % size == 0){
+                if (totalNumber / size < pageNumber){
+                    pageNumber =totalNumber / size;
+                }
+            } else {
+                if ((totalNumber / size) + 1 < pageNumber){
+                    pageNumber =(totalNumber / size) + 1;
+                }
+            }
+            if(pageNumber>5000){
+                let attentionPage = document.getElementById("attentionPage").value
+                $('#tipMsg').html(attentionPage);
+                $('#alertModal').modal('show');
+            }else {
+                document.getElementById('from').value= parseInt(pageNumber);
+                document.getElementById('selectionForm').submit();
+            }
+        }
+        document.addEventListener('click', function (event) {
+            let downloadOption = document.getElementById('downloadOption');
+            let downloadContainer = document.getElementById('downloadContainer');
+            let createFile = document.getElementById('create_files');
+
+            if (downloadOption && !downloadContainer.contains(event.target)) {
+                downloadOption.style.display = 'none';
+                createFile.style.display = 'none';
+
+                let radioButtons = document.querySelectorAll('input[type="radio"]');
+                radioButtons.forEach(function(radioButton) {
+                    radioButton.checked = false;
+                });
+
+            }
+        });
+
+        function toggleDownloadOption() {
+            let downloadOption = document.getElementById('downloadOption');
+            downloadOption.style.display = (downloadOption.style.display === 'none' || downloadOption.style.display === '') ? 'block' : 'none';
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            let checkboxes = document.querySelectorAll('.checkbox_class');
+            let countDisplay = document.getElementById('countDisplay');
+            let des = "Selected : ";
+            let count = 0
+            checkboxes.forEach(function (checkbox) {
+                checkbox.addEventListener('change', function () {
+                    let value = checkbox.getAttribute('data-value');
+                    let accessionSelectedList = document.getElementById('accessionSelectedList').value;
+
+                    if (accessionSelectedList.length==0){
+                        accessionSelectedList=[]
+                    }else {
+                        if (accessionSelectedList.includes("[") || accessionSelectedList.includes("]")) {
+                            accessionSelectedList = accessionSelectedList.replace(/\[|\]/g, "");
+                        }
+                        accessionSelectedList = "["+accessionSelectedList +"]";
+                        accessionSelectedList = JSON.parse(accessionSelectedList);
+                    }
+                    count = accessionSelectedList.length;
+                    if (checkbox.checked) {
+                        count++;
+                        accessionSelectedList = [...accessionSelectedList, value];
+                    } else {
+                        count--;
+                        let index = accessionSelectedList.indexOf(value);
+                        if (index !== -1) {
+                            accessionSelectedList.splice(index, 1);
+                        }
+                    }
+
+                    document.getElementById('accessionSelectedList').value = JSON.stringify(accessionSelectedList);
+                    updateCountDisplay();
+                });
+            });
+            function updateCountDisplay() {
+                countDisplay.style.display = count > 0 ? 'block' : 'none';
+                countDisplay.textContent = des + count;
+            }
+        });
+        function downLoadList(){
+            let fileSelect = $("#downloadFile").val();
+            let accList = document.getElementById('accessionSelectedList').value;
+            let attentionDownload = document.getElementById("attentionDownload").value
+            let totalDatas = parseInt("15");
+            let count = 0;
+            if(accList!=""&&accList!="[]"){
+                if (!accList.includes('[')){
+                    accList = "["+accList+"]";
+                }
+                accList = JSON.parse(accList);
+                count = accList.length;
+            }
+            if(totalDatas>100000 && count==0){
+                $('#tipMsg').html(attentionDownload);
+                $('#alertModal').modal('show');
+            }else {
+                if(fileSelect=='accession'){
+                    let f = document.forms['selectionForm'];
+                    f.action="/gsa/search/getAccessionList";
+                    f.submit();
+                    f.action="/gsa/search";
+                } else if(fileSelect=='run'){
+                    let f = document.forms['selectionForm'];
+                    f.action="/gsa/search/getRunInfo";
+                    f.submit();
+                    f.action="/gsa/search";
+                } else if(fileSelect=='dataset'){
+                    let f = document.forms['selectionForm'];
+                    f.action="/gsa/search/getDatasetList";
+                    f.submit();
+                    f.action="/gsa/search";
+                }
+            }
+
+        }
+        function goBack(){
+            window.history.back();
+        }
+
+    </script>
+
+</body>
+</html>
