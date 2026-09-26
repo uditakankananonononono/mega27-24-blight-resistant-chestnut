@@ -1,0 +1,15 @@
+run_accession	experiment_accession	sample_accession	study_accession	library_strategy	scientific_name	fastq_ftp	fastq_bytes
+SRR006295	SRX001799	SAMN00000760		EST	Castanea dentata	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006295/SRR006295.fastq.gz	12680659
+SRR006296	SRX001800	SAMN00000761		EST	Castanea dentata	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006296/SRR006296.fastq.gz	20357432
+SRR029309	SRX001800	SAMN00000761		EST	Castanea dentata	ftp.sra.ebi.ac.uk/vol1/fastq/SRR029/SRR029309/SRR029309.fastq.gz	19150404
+SRR006297	SRX001801	SAMN00000762		EST	Castanea dentata	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006297/SRR006297.fastq.gz	19126676
+SRR029310	SRX001801	SAMN00000762		EST	Castanea dentata	ftp.sra.ebi.ac.uk/vol1/fastq/SRR029/SRR029310/SRR029310.fastq.gz	25240433
+SRR006298	SRX001802	SAMN00000763		EST	Castanea dentata	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006298/SRR006298.fastq.gz	9670119
+SRR006299	SRX001803	SAMN00000764		EST	Castanea dentata	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006299/SRR006299.fastq.gz	6560565
+SRR006300	SRX001804	SAMN00000765		EST	Castanea mollissima	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006300/SRR006300.fastq.gz	22821744
+SRR006301	SRX001805	SAMN00000766		EST	Castanea mollissima	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006301/SRR006301.fastq.gz	10718482
+SRR006302	SRX001805	SAMN00000766		EST	Castanea mollissima	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006302/SRR006302.fastq.gz	38902206
+SRR006303	SRX001806	SAMN00000767		EST	Castanea mollissima	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006303/SRR006303.fastq.gz	16561491
+SRR006304	SRX001806	SAMN00000767		EST	Castanea mollissima	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006304/SRR006304.fastq.gz	40552333
+SRR006305	SRX001807	SAMN00000768		EST	Castanea mollissima	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006305/SRR006305.fastq.gz	12213022
+SRR006306	SRX001808	SAMN00000769		EST	Castanea mollissima	ftp.sra.ebi.ac.uk/vol1/fastq/SRR006/SRR006306/SRR006306.fastq.gz	11664787
