@@ -1,0 +1,136 @@
+{
+  "checks": {
+    "busco_max_abs_complete_decomposition_pct": 0.0,
+    "busco_max_abs_total_residual_pct": 0.0,
+    "busco_rows": [
+      {
+        "complete": 98.0,
+        "complete_minus_single_duplicate_pct": -0.0,
+        "duplicated": 3.8,
+        "fragmented": 1.1,
+        "genome": "C. crenata cv.Ginyose",
+        "missing": 0.9,
+        "single": 94.2,
+        "total_minus_100_pct": 0.0
+      },
+      {
+        "complete": 97.6,
+        "complete_minus_single_duplicate_pct": -0.0,
+        "duplicated": 6.3,
+        "fragmented": 1.1,
+        "genome": "C. mollissima cv. HBY-2",
+        "missing": 1.3,
+        "single": 91.3,
+        "total_minus_100_pct": -0.0
+      },
+      {
+        "complete": 94.0,
+        "complete_minus_single_duplicate_pct": 0.0,
+        "duplicated": 4.4,
+        "fragmented": 1.5,
+        "genome": "C. mollissima cv. N11-1",
+        "missing": 4.5,
+        "single": 89.6,
+        "total_minus_100_pct": 0.0
+      },
+      {
+        "complete": 98.5,
+        "complete_minus_single_duplicate_pct": 0.0,
+        "duplicated": 8.7,
+        "fragmented": 0.9,
+        "genome": "C. mollissima cv. Sun",
+        "missing": 0.6,
+        "single": 89.8,
+        "total_minus_100_pct": 0.0
+      },
+      {
+        "complete": 95.6,
+        "complete_minus_single_duplicate_pct": -0.0,
+        "duplicated": 5.1,
+        "fragmented": 2.9,
+        "genome": "C. mollissima cv. \u2018Vanuxem\u2019",
+        "missing": 1.5,
+        "single": 90.5,
+        "total_minus_100_pct": 0.0
+      },
+      {
+        "complete": 94.3,
+        "complete_minus_single_duplicate_pct": -0.0,
+        "duplicated": 2.9,
+        "fragmented": 1.6,
+        "genome": "C. mollissima var. drought-resistant (H7)",
+        "missing": 4.1,
+        "single": 91.4,
+        "total_minus_100_pct": -0.0
+      },
+      {
+        "complete": 98.5,
+        "complete_minus_single_duplicate_pct": 0.0,
+        "duplicated": 7.7,
+        "fragmented": 0.9,
+        "genome": "C. mollissima var. early-maturing (ZS)",
+        "missing": 0.6,
+        "single": 90.8,
+        "total_minus_100_pct": 0.0
+      },
+      {
+        "complete": 92.6,
+        "complete_minus_single_duplicate_pct": 0.0,
+        "duplicated": 3.0,
+        "fragmented": 1.2,
+        "genome": "C. mollissima var. easy-pruning (YH)",
+        "missing": 6.2,
+        "single": 89.6,
+        "total_minus_100_pct": 0.0
+      }
+    ],
+    "snp_calculated_common_percentages": [
+      99.94275835075187,
+      97.4348039082188
+    ],
+    "snp_common_over_union_of_distinct_loci_pct_if_overlap_denominator_assumed": 97.43299894091564,
+    "snp_counts": {
+      "Common": [
+        12307411,
+        12307411
+      ],
+      "Non-matching overlapping": [
+        6815,
+        6815
+      ],
+      "Specific": [
+        234,
+        317206
+      ],
+      "Total": [
+        12314460,
+        12631432
+      ]
+    },
+    "snp_printed_common_percentages": [
+      99.943,
+      97.435
+    ],
+    "snp_specific_call_ratio_gatk_to_sentieon": 1355.5811965811965,
+    "snp_totals_decompose_with_nonmatching_overlap": true
+  },
+  "finding": "Both per-caller SNP totals reconcile only after counting the 6,815 non-matching overlapping calls in addition to exact common and specific calls; the two published common percentages also round correctly. The asymmetric caller-specific counts do not establish which calls are true. BUSCO component sums are within displayed rounding precision.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "This is a source-table arithmetic check, not re-calling variants or assessing truth-set accuracy.",
+    "The union percentage depends on treating the 6,815 nonmatching overlaps as loci shared between caller lists; this may not equal a variant-allele Jaccard and is descriptive only.",
+    "The BUSCO table uses rounded one-decimal percentages, so residuals need not be exactly zero.",
+    "No sequence payload fetched or analysed; no accession, audited-derivation, comparator-win, discovery or paper-page gate credit."
+  ],
+  "source_sha256": "7eed2f0e23bbdeee138892dd186b3a099e0549af08a15f94a2e9c647c4f8eac2",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/",
+  "tables": [
+    2,
+    3
+  ]
+}
