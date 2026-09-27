@@ -1,0 +1,26 @@
+{
+  "distinct_run_accessions": 737,
+  "distinct_sample_accessions": 737,
+  "ena_report_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA540917&result=read_run&fields=run_accession%2Csample_accession%2Csample_title%2Clibrary_strategy&format=tsv",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "In the linked PRJNA540917 study, the current ENA report holds 737 runs and 737 distinct sample accession labels; 522 entries are library strategy WGA, 214 WGS, and one Hi-C. The paper\u2019s 330 curated resequencing samples have a different curation denominator, and no article-level sample manifest in this check selects them from the 737.",
+  "library_strategy_counts": {
+    "Hi-C": 1,
+    "WGA": 522,
+    "WGS": 214
+  },
+  "limits": [
+    "Single project metadata report, not 737 individually fetched read payloads or genotype analyses",
+    "ENA library strategy labels are archival metadata; WGA/WGS labels alone do not establish article inclusion/exclusion",
+    "No phenotypic resistance labels, genotype validation, comparator, discovery or gate credit"
+  ],
+  "paper_printed_curated_resequencing_samples": 330,
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/",
+  "report_run_rows": 737,
+  "report_sha256": "3d979f326348d988aebca89da5ca416af3cf6b767d535ceb28d47c1a8dc50cf1"
+}

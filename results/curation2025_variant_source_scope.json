@@ -21,7 +21,7 @@
   "limits": [
     "Run accession list was fetched as one report, not 737 individually fetched read payloads",
     "VCF filename labels do not establish per-sample VCF content; no VCF payload downloaded",
-    "No run-to-sample relation was fetched in this report, so 737-to-330 mapping remains unresolved",
+    "The run-only report lacks sample labels; a companion richer report now has 737 distinct sample labels, but selection into the paper\u2019s 330 curated records remains unresolved",
     "No biological or variant accuracy inference, comparator, discovery or gate credit"
   ],
   "paper_printed_resequencing_sample_count": 330,

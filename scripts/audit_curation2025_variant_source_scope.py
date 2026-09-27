@@ -21,7 +21,7 @@ out={'paper_url':'https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/',
      'interpretation':'The linked PRJNA540917 ENA project has 737 run accession rows; the distributed Figshare dataset has 98 per-label VCF file entries but 97 unique labels. Neither denominator is directly the paper’s 330 resequencing samples: one sample can have multiple runs, and aggregate variant files may hold many samples.',
      'limits':['Run accession list was fetched as one report, not 737 individually fetched read payloads',
                'VCF filename labels do not establish per-sample VCF content; no VCF payload downloaded',
-               'No run-to-sample relation was fetched in this report, so 737-to-330 mapping remains unresolved',
+               'The run-only report lacks sample labels; a companion richer report now has 737 distinct sample labels, but selection into the paper’s 330 curated records remains unresolved',
                'No biological or variant accuracy inference, comparator, discovery or gate credit'],
      'gate_credit':{'external_services':0,'fetched_and_used_accession_datasets':0,'audited_derivations':0,'paper_pages':0}}
 print(json.dumps(out,indent=2,sort_keys=True))
