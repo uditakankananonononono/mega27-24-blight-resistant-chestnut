@@ -1,0 +1,211 @@
+{
+  "figshare_columns_not_named_by_these_geo_rows": 181,
+  "figshare_header_sha256": "bab94dcfbea3606c9da49a1df12abddfdfdacda17abd036807561717b09e0aa6",
+  "figshare_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
+  "finding": "Each GEO sample title in the four cited series begins with an SRR label; these title prefixes can be cross-checked against Figshare\u2019s 213 expression columns. This is a GEO-title to archive-header bridge, not a full 213-record provenance map.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "geo_rows": 32,
+  "geo_series": [
+    {
+      "accession": "GSE284510",
+      "geo_sample_count": 7,
+      "samples": [
+        {
+          "geo_sample": "GSM8685662",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR10479849"
+        },
+        {
+          "geo_sample": "GSM8685659",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR10350465"
+        },
+        {
+          "geo_sample": "GSM8685665",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR10479852"
+        },
+        {
+          "geo_sample": "GSM8685664",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR10479853"
+        },
+        {
+          "geo_sample": "GSM8685661",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR10479848"
+        },
+        {
+          "geo_sample": "GSM8685663",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR10479851"
+        },
+        {
+          "geo_sample": "GSM8685660",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR10350466"
+        }
+      ],
+      "source_sha256": "bfebccf1afa202ecb3839b9303369cc14adf762b26374ad0be228df4827a46e8"
+    },
+    {
+      "accession": "GSE284516",
+      "geo_sample_count": 18,
+      "samples": [
+        {
+          "geo_sample": "GSM8685772",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473439"
+        },
+        {
+          "geo_sample": "GSM8685775",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473444"
+        },
+        {
+          "geo_sample": "GSM8685778",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473447"
+        },
+        {
+          "geo_sample": "GSM8685781",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473454"
+        },
+        {
+          "geo_sample": "GSM8685784",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473442"
+        },
+        {
+          "geo_sample": "GSM8685787",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473449"
+        },
+        {
+          "geo_sample": "GSM8685780",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473453"
+        },
+        {
+          "geo_sample": "GSM8685783",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473456"
+        },
+        {
+          "geo_sample": "GSM8685789",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473451"
+        },
+        {
+          "geo_sample": "GSM8685786",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473448"
+        },
+        {
+          "geo_sample": "GSM8685785",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473443"
+        },
+        {
+          "geo_sample": "GSM8685788",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473450"
+        },
+        {
+          "geo_sample": "GSM8685777",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473446"
+        },
+        {
+          "geo_sample": "GSM8685774",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473441"
+        },
+        {
+          "geo_sample": "GSM8685773",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473440"
+        },
+        {
+          "geo_sample": "GSM8685782",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473455"
+        },
+        {
+          "geo_sample": "GSM8685776",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473445"
+        },
+        {
+          "geo_sample": "GSM8685779",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR16473452"
+        }
+      ],
+      "source_sha256": "6947101d26104610e1cd0298f58016ce61e679e3df3d5acfcc11795723ad4d8c"
+    },
+    {
+      "accession": "GSE284517",
+      "geo_sample_count": 6,
+      "samples": [
+        {
+          "geo_sample": "GSM8685791",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR17140805"
+        },
+        {
+          "geo_sample": "GSM8685790",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR17140804"
+        },
+        {
+          "geo_sample": "GSM8685793",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR17139641"
+        },
+        {
+          "geo_sample": "GSM8685792",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR17140806"
+        },
+        {
+          "geo_sample": "GSM8685795",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR17139643"
+        },
+        {
+          "geo_sample": "GSM8685794",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR17139642"
+        }
+      ],
+      "source_sha256": "79f9d659a6af11b9a2cf958ff53d4d57a31828bd5da570cdb1c7aeacd68fa56f"
+    },
+    {
+      "accession": "GSE284518",
+      "geo_sample_count": 1,
+      "samples": [
+        {
+          "geo_sample": "GSM8685796",
+          "in_figshare_expression_header": true,
+          "title_run_prefix": "SRR8731962"
+        }
+      ],
+      "source_sha256": "a840c8c7fa580631ca337a021ee9c1eeaf1b9c963b29dc13bbe95eae6ee3ace6"
+    }
+  ],
+  "geo_title_prefixes_in_figshare": 32,
+  "limits": [
+    "GEO title prefixes are descriptive metadata, not verified GEO-to-SRA provider relations",
+    "Archive headers and GEO esummaries only; no read payload, expression values or person-level linkage",
+    "No individual accession-use, comparator, discovery, derivation or paper-page credit"
+  ],
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/",
+  "unique_title_run_prefixes": 32
+}
