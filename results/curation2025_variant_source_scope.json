@@ -1,0 +1,29 @@
+{
+  "ena_report_sha256": "56be41ee2a40a1da9e56335931e554ac066379e2426434fd1341cd2cf1336231",
+  "ena_report_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA540917&result=read_run&fields=run_accession&format=tsv",
+  "ena_run_accession_prefix_counts": {
+    "SRR10": 541,
+    "SRR30": 98,
+    "SRR90": 98
+  },
+  "ena_run_count": 737,
+  "figshare_distinct_vcf_filename_labels": 97,
+  "figshare_metadata_sha256": "51aadbc60b26e93c92d7b739e5682e2cb08d441a135f0755936a645378a8b196",
+  "figshare_per_label_vcf_file_count": 98,
+  "figshare_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "The linked PRJNA540917 ENA project has 737 run accession rows; the distributed Figshare dataset has 98 per-label VCF file entries but 97 unique labels. Neither denominator is directly the paper\u2019s 330 resequencing samples: one sample can have multiple runs, and aggregate variant files may hold many samples.",
+  "limits": [
+    "Run accession list was fetched as one report, not 737 individually fetched read payloads",
+    "VCF filename labels do not establish per-sample VCF content; no VCF payload downloaded",
+    "No run-to-sample relation was fetched in this report, so 737-to-330 mapping remains unresolved",
+    "No biological or variant accuracy inference, comparator, discovery or gate credit"
+  ],
+  "paper_printed_resequencing_sample_count": 330,
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/"
+}
