@@ -1,0 +1,224 @@
+{
+  "docx_md5": "ec3283f145f113782506d6b32295abb1",
+  "docx_sha256": "f658d25393c77f7f3a761e564389fb49febf9a33c9b6544d9c0c045a593bf936",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "group_summary": {
+    "Mock0h": {
+      "max_mapping_percent": 92.42691666627317,
+      "mean_clean_reads": 65580130,
+      "mean_mapping_percent": 92.03338194216961,
+      "min_mapping_percent": 91.80952337356764,
+      "n": 3
+    },
+    "Mock3h": {
+      "max_mapping_percent": 93.09142300251175,
+      "mean_clean_reads": 68893973.33333333,
+      "mean_mapping_percent": 92.33542976306525,
+      "min_mapping_percent": 91.95524775754447,
+      "n": 3
+    },
+    "Mock9h": {
+      "max_mapping_percent": 92.72689927506553,
+      "mean_clean_reads": 68909972,
+      "mean_mapping_percent": 92.47462008111775,
+      "min_mapping_percent": 92.32738128372262,
+      "n": 3
+    },
+    "T3h": {
+      "max_mapping_percent": 92.65622098669775,
+      "mean_clean_reads": 74329876.66666667,
+      "mean_mapping_percent": 91.69506604240803,
+      "min_mapping_percent": 89.89871141607004,
+      "n": 3
+    },
+    "T9h": {
+      "max_mapping_percent": 87.57190149228559,
+      "mean_clean_reads": 81588689,
+      "mean_mapping_percent": 87.12684431452209,
+      "min_mapping_percent": 86.84268228042976,
+      "n": 3
+    }
+  },
+  "limits": [
+    "Original supplementary table reports processed read quality only, not raw sequencing payload or per-gene expression.",
+    "Three replicates per group are one published cohort and 15 sample rows do not equal 15 independent studies or 15 fetched-and-used accession payloads.",
+    "Mapping differences are descriptive QC, not resistance mechanism, causal treatment effect or independent benchmark."
+  ],
+  "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9901152/",
+  "reported_vs_calculated_mapping_max_absolute_percentage_points": 0.0047522424555239695,
+  "rows": [
+    {
+      "calculated_mapping_percent": 92.42691666627317,
+      "clean_reads": 54850433,
+      "gc_percent": 43.87,
+      "group": "Mock0h",
+      "label": "Mock0h-1",
+      "mapped_reads": 50696564,
+      "q20_percent": 97.74,
+      "q30_percent": 93.41,
+      "reported_mapping_percent": 92.43
+    },
+    {
+      "calculated_mapping_percent": 91.80952337356764,
+      "clean_reads": 73838792,
+      "gc_percent": 43.79,
+      "group": "Mock0h",
+      "label": "Mock0h-2",
+      "mapped_reads": 67791043,
+      "q20_percent": 97.72,
+      "q30_percent": 93.34,
+      "reported_mapping_percent": 91.81
+    },
+    {
+      "calculated_mapping_percent": 91.86370578666802,
+      "clean_reads": 68051165,
+      "gc_percent": 43.85,
+      "group": "Mock0h",
+      "label": "Mock0h-3",
+      "mapped_reads": 62514322,
+      "q20_percent": 97.62,
+      "q30_percent": 93.12,
+      "reported_mapping_percent": 91.86
+    },
+    {
+      "calculated_mapping_percent": 93.09142300251175,
+      "clean_reads": 65505429,
+      "gc_percent": 43.57,
+      "group": "Mock3h",
+      "label": "Mock3h-1",
+      "mapped_reads": 60979936,
+      "q20_percent": 97.89,
+      "q30_percent": 93.76,
+      "reported_mapping_percent": 93.09
+    },
+    {
+      "calculated_mapping_percent": 91.95524775754447,
+      "clean_reads": 65996961,
+      "gc_percent": 43.6,
+      "group": "Mock3h",
+      "label": "Mock3h-2",
+      "mapped_reads": 60687669,
+      "q20_percent": 97.73,
+      "q30_percent": 93.39,
+      "reported_mapping_percent": 91.96
+    },
+    {
+      "calculated_mapping_percent": 91.95961852913952,
+      "clean_reads": 75179530,
+      "gc_percent": 43.59,
+      "group": "Mock3h",
+      "label": "Mock3h-3",
+      "mapped_reads": 69134809,
+      "q20_percent": 97.77,
+      "q30_percent": 93.41,
+      "reported_mapping_percent": 91.96
+    },
+    {
+      "calculated_mapping_percent": 92.3695796845651,
+      "clean_reads": 53296068,
+      "gc_percent": 43.78,
+      "group": "Mock9h",
+      "label": "Mock9h-1",
+      "mapped_reads": 49229354,
+      "q20_percent": 97.69,
+      "q30_percent": 93.31,
+      "reported_mapping_percent": 92.37
+    },
+    {
+      "calculated_mapping_percent": 92.32738128372262,
+      "clean_reads": 74893921,
+      "gc_percent": 43.75,
+      "group": "Mock9h",
+      "label": "Mock9h-2",
+      "mapped_reads": 69147596,
+      "q20_percent": 97.73,
+      "q30_percent": 93.39,
+      "reported_mapping_percent": 92.33
+    },
+    {
+      "calculated_mapping_percent": 92.72689927506553,
+      "clean_reads": 78539927,
+      "gc_percent": 43.97,
+      "group": "Mock9h",
+      "label": "Mock9h-3",
+      "mapped_reads": 72827639,
+      "q20_percent": 97.83,
+      "q30_percent": 93.6,
+      "reported_mapping_percent": 92.73
+    },
+    {
+      "calculated_mapping_percent": 89.89871141607004,
+      "clean_reads": 81324466,
+      "gc_percent": 43.81,
+      "group": "T3h",
+      "label": "T3h-1",
+      "mapped_reads": 73109647,
+      "q20_percent": 97.63,
+      "q30_percent": 93.19,
+      "reported_mapping_percent": 89.9
+    },
+    {
+      "calculated_mapping_percent": 92.65622098669775,
+      "clean_reads": 66860495,
+      "gc_percent": 43.94,
+      "group": "T3h",
+      "label": "T3h-2",
+      "mapped_reads": 61950408,
+      "q20_percent": 97.7,
+      "q30_percent": 93.35,
+      "reported_mapping_percent": 92.66
+    },
+    {
+      "calculated_mapping_percent": 92.53026572445631,
+      "clean_reads": 74804669,
+      "gc_percent": 43.93,
+      "group": "T3h",
+      "label": "T3h-3",
+      "mapped_reads": 69216959,
+      "q20_percent": 97.61,
+      "q30_percent": 93.18,
+      "reported_mapping_percent": 92.53
+    },
+    {
+      "calculated_mapping_percent": 86.96594917085092,
+      "clean_reads": 72899194,
+      "gc_percent": 44.68,
+      "group": "T9h",
+      "label": "T9h-1",
+      "mapped_reads": 63397476,
+      "q20_percent": 97.65,
+      "q30_percent": 93.18,
+      "reported_mapping_percent": 86.97
+    },
+    {
+      "calculated_mapping_percent": 86.84268228042976,
+      "clean_reads": 79309858,
+      "gc_percent": 44.84,
+      "group": "T9h",
+      "label": "T9h-2",
+      "mapped_reads": 68874808,
+      "q20_percent": 97.65,
+      "q30_percent": 93.25,
+      "reported_mapping_percent": 86.84
+    },
+    {
+      "calculated_mapping_percent": 87.57190149228559,
+      "clean_reads": 92557015,
+      "gc_percent": 44.38,
+      "group": "T9h",
+      "label": "T9h-3",
+      "mapped_reads": 81053938,
+      "q20_percent": 97.83,
+      "q30_percent": 93.56,
+      "reported_mapping_percent": 87.57
+    }
+  ],
+  "sample_count": 15,
+  "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9901152/supplementaryFiles",
+  "total_clean_reads": 1077907923
+}
