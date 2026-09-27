@@ -1,0 +1,79 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "groups": {
+    "Mock0h": {
+      "gc_mean_pct": 43.836666666666666,
+      "mapping_range_pct": [
+        91.80952337356764,
+        92.42691666627317
+      ],
+      "n": 3,
+      "q30_mean_pct": 93.29,
+      "read_weighted_mapping_pct": 92.00039148036659,
+      "unweighted_mapping_mean_pct": 92.03338194216961
+    },
+    "Mock3h": {
+      "gc_mean_pct": 43.586666666666666,
+      "mapping_range_pct": [
+        91.95524775754447,
+        93.09142300251175
+      ],
+      "n": 3,
+      "q30_mean_pct": 93.52,
+      "read_weighted_mapping_pct": 92.31693512427212,
+      "unweighted_mapping_mean_pct": 92.33542976306525
+    },
+    "Mock9h": {
+      "gc_mean_pct": 43.833333333333336,
+      "mapping_range_pct": [
+        92.32738128372262,
+        92.72689927506553
+      ],
+      "n": 3,
+      "q30_mean_pct": 93.43333333333334,
+      "read_weighted_mapping_pct": 92.49004338588325,
+      "unweighted_mapping_mean_pct": 92.47462008111775
+    },
+    "T3h": {
+      "gc_mean_pct": 43.89333333333333,
+      "mapping_range_pct": [
+        89.89871141607004,
+        92.65622098669775
+      ],
+      "n": 3,
+      "q30_mean_pct": 93.24,
+      "read_weighted_mapping_pct": 91.60830214391584,
+      "unweighted_mapping_mean_pct": 91.69506604240803
+    },
+    "T9h": {
+      "gc_mean_pct": 44.63333333333333,
+      "mapping_range_pct": [
+        86.84268228042976,
+        87.57190149228559
+      ],
+      "n": 3,
+      "q30_mean_pct": 93.33,
+      "read_weighted_mapping_pct": 87.1551455700761,
+      "unweighted_mapping_mean_pct": 87.12684431452209
+    }
+  },
+  "interpretation_limits": [
+    "These are post-hoc, source-table QC contrasts of 3 versus 3 libraries, not independent infection-resistance measurements or an independent cohort.",
+    "Higher T9h GC is a co-occurring feature, not evidence that GC explains the mapping difference. Neither the reference, per-read unmapped sequences nor a multivariable batch analysis was examined.",
+    "The T9h-versus-Mock9h map gap remains a sensitivity risk for expression claims; the small Q30 contrast alone cannot identify its mechanism."
+  ],
+  "nine_hour_contrasts": {
+    "all_T9_mapping_below_all_Mock9": true,
+    "gc_T_minus_Mock_percentage_points": 0.7999999999999972,
+    "mapping_read_weighted_T_minus_Mock_percentage_points": -5.334897815807153,
+    "mapping_unweighted_T_minus_Mock_percentage_points": -5.34777576659566,
+    "q30_T_minus_Mock_percentage_points": -0.10333333333333883
+  },
+  "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9901152/supplementaryFiles",
+  "source_sha256": "f658d25393c77f7f3a761e564389fb49febf9a33c9b6544d9c0c045a593bf936"
+}
