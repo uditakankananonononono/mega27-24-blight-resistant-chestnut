@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-09-27T16:46:40.032325+00:00",
+  "distinct_md5_values": 30,
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "head_check_record_sha256": "35502340d513c641c67e460ebdca10506b90275cd736a70fd6667a0a2a99e68c",
+  "index_sha256": "3255f10a537b13bb29b11cd6d20adc62c71a78745c002a2bc19bebdb7689b047",
+  "index_url": "https://seqout.org/api/project/CRA006690/runs/download",
+  "limits": [
+    "HEAD metadata only: status and byte length, no payload bytes, no MD5 verification against content",
+    "Byte-count agreement shows the index and host agree on file sizes; it does not prove file contents are the study reads or uncorrupted",
+    "A live HEAD at one point in time is availability evidence, not permanence; the primary GSA browse route remained unavailable to this fetcher",
+    "No accession dataset fetched-and-used, no expression result, no resistance or biology claim"
+  ],
+  "method": "HTTP HEAD against each advertised fastq_url in the archived third-party index; no payload bytes downloaded",
+  "runs": 15,
+  "total_advertised_bytes": 74578217301,
+  "urls_byte_count_exact_match": 30,
+  "urls_checked": 30,
+  "urls_status_200": 30
+}

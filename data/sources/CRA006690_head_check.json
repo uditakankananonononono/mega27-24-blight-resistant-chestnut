@@ -1,0 +1,276 @@
+{
+  "checked_at_utc": "2026-09-27T16:46:40.032325+00:00",
+  "method": "HTTP HEAD against each advertised fastq_url in the archived third-party index; no payload bytes downloaded",
+  "checks": [
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464767/CRR464767_f1.fq.gz",
+      "advertised_bytes": 1839719204,
+      "advertised_md5": "2dbcb044ad7bba5c1c02b5124d527960",
+      "status": 200,
+      "content_length": 1839719204,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464767/CRR464767_r2.fq.gz",
+      "advertised_bytes": 1976432492,
+      "advertised_md5": "30cf5415ef81625a9fc3f10fb1bf0fed",
+      "status": 200,
+      "content_length": 1976432492,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464768/CRR464768_f1.fq.gz",
+      "advertised_bytes": 2451174591,
+      "advertised_md5": "3799f885fe971a18bf2d0f2d7f05c58c",
+      "status": 200,
+      "content_length": 2451174591,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464768/CRR464768_r2.fq.gz",
+      "advertised_bytes": 2648291324,
+      "advertised_md5": "f37fe365f511e3d8406f799c4b1fd28f",
+      "status": 200,
+      "content_length": 2648291324,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464769/CRR464769_f1.fq.gz",
+      "advertised_bytes": 2248691324,
+      "advertised_md5": "b164dc12e35e0993db8f9596f6c8b221",
+      "status": 200,
+      "content_length": 2248691324,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464769/CRR464769_r2.fq.gz",
+      "advertised_bytes": 2427474163,
+      "advertised_md5": "4f7d0d1f5f173598d59c7c26799f55c0",
+      "status": 200,
+      "content_length": 2427474163,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464770/CRR464770_f1.fq.gz",
+      "advertised_bytes": 2157992153,
+      "advertised_md5": "5eb5d20b44c78843c8e703830bfda493",
+      "status": 200,
+      "content_length": 2157992153,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464770/CRR464770_r2.fq.gz",
+      "advertised_bytes": 2330132000,
+      "advertised_md5": "c9d918a3791db9524fb4265084b2e783",
+      "status": 200,
+      "content_length": 2330132000,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464771/CRR464771_f1.fq.gz",
+      "advertised_bytes": 2222993400,
+      "advertised_md5": "843f41b36700cd561801a65a3513b360",
+      "status": 200,
+      "content_length": 2222993400,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464771/CRR464771_r2.fq.gz",
+      "advertised_bytes": 2357623869,
+      "advertised_md5": "3828cc5d1aef0cc440410d37b6d453f9",
+      "status": 200,
+      "content_length": 2357623869,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464772/CRR464772_f1.fq.gz",
+      "advertised_bytes": 2513789018,
+      "advertised_md5": "ce2d816de3074d8421c26f203039907f",
+      "status": 200,
+      "content_length": 2513789018,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464772/CRR464772_r2.fq.gz",
+      "advertised_bytes": 2663417324,
+      "advertised_md5": "490d477bf34cdf1c016c04160d9b2a08",
+      "status": 200,
+      "content_length": 2663417324,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464773/CRR464773_f1.fq.gz",
+      "advertised_bytes": 1784024823,
+      "advertised_md5": "b4b0751e376babe8cc475c5279093137",
+      "status": 200,
+      "content_length": 1784024823,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464773/CRR464773_r2.fq.gz",
+      "advertised_bytes": 1890515298,
+      "advertised_md5": "f8004f45442edb426a4cc127de2c4d1f",
+      "status": 200,
+      "content_length": 1890515298,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464774/CRR464774_f1.fq.gz",
+      "advertised_bytes": 2520298445,
+      "advertised_md5": "1c6475d8fd44628d349bd77803d2185e",
+      "status": 200,
+      "content_length": 2520298445,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464774/CRR464774_r2.fq.gz",
+      "advertised_bytes": 2663981354,
+      "advertised_md5": "488297735e3a919120f2d21e8b739a44",
+      "status": 200,
+      "content_length": 2663981354,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464775/CRR464775_f1.fq.gz",
+      "advertised_bytes": 2637564666,
+      "advertised_md5": "b475907c8fcd484ebc922afd2e48cb9f",
+      "status": 200,
+      "content_length": 2637564666,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464775/CRR464775_r2.fq.gz",
+      "advertised_bytes": 2830447025,
+      "advertised_md5": "4a6c4ffe772180168263a2067461e141",
+      "status": 200,
+      "content_length": 2830447025,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464776/CRR464776_f1.fq.gz",
+      "advertised_bytes": 2726640916,
+      "advertised_md5": "b21a0e352b345205f1dbc0096b53d7b8",
+      "status": 200,
+      "content_length": 2726640916,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464776/CRR464776_r2.fq.gz",
+      "advertised_bytes": 2886608352,
+      "advertised_md5": "070d18dbc536e15bee3b58aa03fb8631",
+      "status": 200,
+      "content_length": 2886608352,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464777/CRR464777_f1.fq.gz",
+      "advertised_bytes": 2212565422,
+      "advertised_md5": "d7da01b481df911a7884b7f2c2affa3a",
+      "status": 200,
+      "content_length": 2212565422,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464777/CRR464777_r2.fq.gz",
+      "advertised_bytes": 2421002918,
+      "advertised_md5": "a3c37b0a540bc857fd3a1f9f95c60af4",
+      "status": 200,
+      "content_length": 2421002918,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464778/CRR464778_f1.fq.gz",
+      "advertised_bytes": 2469786112,
+      "advertised_md5": "be9f6d89339b53bb799dd5992e6d0d91",
+      "status": 200,
+      "content_length": 2469786112,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464778/CRR464778_r2.fq.gz",
+      "advertised_bytes": 2663826215,
+      "advertised_md5": "a496169e413f68538a27fcf8ecdb6ef7",
+      "status": 200,
+      "content_length": 2663826215,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464779/CRR464779_f1.fq.gz",
+      "advertised_bytes": 2437793684,
+      "advertised_md5": "28975112d832ca92f88ef4fbfd41d0a9",
+      "status": 200,
+      "content_length": 2437793684,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464779/CRR464779_r2.fq.gz",
+      "advertised_bytes": 2621176139,
+      "advertised_md5": "28a5f233a891c44f6e782649e4012a80",
+      "status": 200,
+      "content_length": 2621176139,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464780/CRR464780_f1.fq.gz",
+      "advertised_bytes": 2667467800,
+      "advertised_md5": "b9a7609be7db97cb1aa5a05a5b805609",
+      "status": 200,
+      "content_length": 2667467800,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464780/CRR464780_r2.fq.gz",
+      "advertised_bytes": 2858758504,
+      "advertised_md5": "5b717b35758fe3a5becb2e91f2e4d378",
+      "status": 200,
+      "content_length": 2858758504,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464781/CRR464781_f1.fq.gz",
+      "advertised_bytes": 3077874821,
+      "advertised_md5": "d39f19ea3252e28b81fe2ed0fd0cc67e",
+      "status": 200,
+      "content_length": 3077874821,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    },
+    {
+      "url": "https://download.cncb.ac.cn/gsa2/CRA006690/CRR464781/CRR464781_r2.fq.gz",
+      "advertised_bytes": 3370153945,
+      "advertised_md5": "550871a142948c108e6e26b293a106f9",
+      "status": 200,
+      "content_length": 3370153945,
+      "content_type": "application/octet-stream",
+      "bytes_match": true
+    }
+  ]
+}
