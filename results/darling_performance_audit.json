@@ -1,0 +1,39 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "These are organizer-reported survival counts at one Virginia Tech field trial, not an independently retrieved underlying individual-tree dataset; unmeasured site and lineage factors prevent causal interpretation.",
+    "The source itself says the trees then called Darling 58 were Darling 54 progeny due to identity error. Never aggregate these numbers as verified original Darling 58 performance.",
+    "TACF stopped development and support for distribution petitions; these historical data cannot support a current deployment or success claim.",
+    "A one-site observational arithmetic contrast is not a fair comparator benchmark, new discovery, 120 individually fetched accession records or a project gate."
+  ],
+  "source_claim_checks": {
+    "discontinued": "discontinue its development of the Darling 58",
+    "height_penalty": "15% to 25% shorter",
+    "identity": "not from Darling 58, but from a different prototype",
+    "survivors": "5 OxO positive survivors of 24 planted) that OxO negative full siblings (19 survivors of 24 planted"
+  },
+  "sources": {
+    "discontinuation": {
+      "sha256": "7c3c1775e1d45b6ef0d4d36dbed4aa4a1c66896ab125879bb903c9975e8b0df7",
+      "url": "https://tacf.org/tacf-discontinues-development-of-darling-58/"
+    },
+    "performance": {
+      "sha256": "88aa2f3bd9c7f65ab560a38b83008715083b413a9817b91baee8fd8cc9bce93d",
+      "url": "https://tacf.org/darling-58-performance/"
+    }
+  },
+  "survival_descriptive": {
+    "negative_rate": 0.7916666666666666,
+    "oxo_negative_planted": 24,
+    "oxo_negative_survived": 19,
+    "oxo_positive_planted": 24,
+    "oxo_positive_survived": 5,
+    "positive_rate": 0.20833333333333334,
+    "rate_difference_positive_minus_negative": -0.5833333333333333
+  }
+}
