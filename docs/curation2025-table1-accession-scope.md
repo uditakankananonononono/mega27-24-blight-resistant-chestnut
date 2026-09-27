@@ -1,0 +1,11 @@
+# 2025 curation paper Table 1: accession-scope replay
+
+The [2025 Scientific Data paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/) "Comprehensive curation and validation of genomic datasets for chestnut" prints Table 1 listing eight collected Castanea genomes with total length, N50 and a data-record accession. This audit parses the archived article XML (SHA-256 pinned in `results/curation2025_table1_scope.json`) and replays every printed accession against live ENA portal reports fetched 2026-09-27 and archived in `data/sources/curation2025_*`.
+
+**Coverage.** Only six of the eight genome rows print a data record: the two final Hu et al. variety rows (early-maturing ZS, easy-pruning YH) have no accession cell at all. Whether their assemblies are available anywhere is not determinable from the paper table.
+
+**Live resolution (2026-09-27).** All six printed accessions resolve in some form: PRJNA527178 (272 read_run rows, "Genome of Castanea mollissima"), PRJNA540917 (737 rows, "genomes of chestnut"), PRJNA559042 (3 rows), PRJNA769510 (9 rows), and PRJNA46687 (0 read_run rows in the portal, consistent with a 2013 assembly-era record; the study itself resolves). DRA012289 shows a resolution asymmetry: the study lookup returns empty (DRA is a submission accession), yet the read_run lookup resolves 147 runs.
+
+**Two source-selection flags.** First, the ENA study title for PRJNA46687 reads "Vanexum" while the paper prints cultivar 'Vanuxem' - a spelling mismatch to carry when cross-referencing, not evidence of the wrong record. Second, DRA012289 is described in the table as the C. crenata cv. Ginyose genome record, but its 147 archived runs span 143 distinct samples of which only 5 runs are labelled C. crenata; 141 are C. sativa x C. crenata hybrids and 1 is C. sativa. The printed row describes a single-cultivar genome while the linked submission is dominated by hybrid resequencing material; anyone treating the accession as "the Ginyose genome data" would over-read it.
+
+The script replays table parsing and every archived ENA report, and is covered by a hermetic test. This is metadata-level source QC: no assembly or read payload was fetched, no biological claim follows, and no service/accession/derivation/page gate credit is claimed.

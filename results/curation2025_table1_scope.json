@@ -1,0 +1,152 @@
+{
+  "checks": {
+    "all_printed_accessions_resolve_somehow": true,
+    "dra012289_organism_scope": {
+      "c_crenata_runs": 5,
+      "c_sativa_runs": 1,
+      "distinct_samples": 143,
+      "hybrid_runs": 141,
+      "paper_row_describes": "C. crenata cv. Ginyose genome"
+    },
+    "dra012289_study_lookup_empty_but_runs_resolve": true,
+    "ena_resolution": {
+      "DRA012289": {
+        "distinct_samples": 143,
+        "first_public": null,
+        "resolves_as_study": false,
+        "resolves_via_read_run": true,
+        "run_organism_counts": {
+          "Castanea crenata": 5,
+          "Castanea sativa": 1,
+          "Castanea sativa x Castanea crenata": 141
+        },
+        "run_rows": 147,
+        "study_rows": 0,
+        "study_title": null
+      },
+      "PRJNA46687": {
+        "first_public": "2013-05-31",
+        "resolves_as_study": true,
+        "resolves_via_read_run": false,
+        "run_rows": 0,
+        "study_rows": 1,
+        "study_title": "Castanea mollissima Vanexum genome sequencing"
+      },
+      "PRJNA527178": {
+        "first_public": "2019-03-16",
+        "resolves_as_study": true,
+        "resolves_via_read_run": true,
+        "run_rows": 272,
+        "study_rows": 1,
+        "study_title": "Genome of Castanea mollissima"
+      },
+      "PRJNA540917": {
+        "first_public": "2020-05-25",
+        "resolves_as_study": true,
+        "resolves_via_read_run": true,
+        "run_rows": 737,
+        "study_rows": 1,
+        "study_title": "genomes of chestnut"
+      },
+      "PRJNA559042": {
+        "first_public": "2020-08-13",
+        "resolves_as_study": true,
+        "resolves_via_read_run": true,
+        "run_rows": 3,
+        "study_rows": 1,
+        "study_title": "Castanea mollissima Genome sequencing and assembly"
+      },
+      "PRJNA769510": {
+        "first_public": "2021-10-09",
+        "resolves_as_study": true,
+        "resolves_via_read_run": true,
+        "run_rows": 9,
+        "study_rows": 1,
+        "study_title": "Castanea mollissima Blume Genome sequencing and assembly"
+      }
+    },
+    "prjna46687_zero_read_runs_in_portal": true,
+    "table1_genome_rows": 8,
+    "table1_rows_with_data_record": 6,
+    "table1_rows_without_data_record": [
+      "C. mollissima var. early-maturing (ZS) (Hu et al.11)",
+      "C. mollissima var. easy-pruning (YH) (Hu et al.11)"
+    ],
+    "total_length_mb_range": [
+      671.99,
+      790.99
+    ],
+    "vanuxem_spelling": {
+      "ena_study_title_contains": "Vanexum",
+      "mismatch": true,
+      "paper_cultivar": "Vanuxem"
+    }
+  },
+  "ena_fetched": "2026-09-27 (archived TSVs in data/sources/curation2025_*)",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "journal": "Scientific Data (2025)",
+  "limits": [
+    "Metadata-level accession scope check only; no genome assembly or read payload downloaded or analysed",
+    "ENA portal state as of 2026-09-27; run counts and titles can change as archives are updated",
+    "A resolving accession does not prove the record holds the exact assembly the table row describes; PRJNA46687 has zero read_run rows in the portal, consistent with an assembly-era record, and its assembly was not fetched",
+    "Run counts are portal rows, not the 330 resequenced accessions the paper text describes separately"
+  ],
+  "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/",
+  "sha256": "7eed2f0e23bbdeee138892dd186b3a099e0549af08a15f94a2e9c647c4f8eac2",
+  "source_file": "pmc12103606.xml",
+  "table1_rows": [
+    {
+      "data_record": "PRJNA527178",
+      "genome": "C. mollissima cv. HBY-2 (Xing et al.6, Liu et al.7)",
+      "n50_mb": null,
+      "total_length_mb": 738.87
+    },
+    {
+      "data_record": "PRJNA540917",
+      "genome": "C. mollissima cv.Sun (Sun et al.9)",
+      "n50_mb": 5.88,
+      "total_length_mb": 773.99
+    },
+    {
+      "data_record": "PRJNA46687",
+      "genome": "C. mollissima cv. \u2018Vanuxem\u2019 (Staton et al.10)",
+      "n50_mb": 0.14,
+      "total_length_mb": 725.2
+    },
+    {
+      "data_record": "PRJNA559042",
+      "genome": "C. mollissima cv. N11-1 (Wang et al.8)",
+      "n50_mb": 2.83,
+      "total_length_mb": 688.93
+    },
+    {
+      "data_record": "DRA012289",
+      "genome": "C. crenata cv. Ginyose (Shirasawa et al.12)",
+      "n50_mb": 1.6,
+      "total_length_mb": 721.2
+    },
+    {
+      "data_record": "PRJNA769510",
+      "genome": "C. mollissima var. drought-resistant (H7) (Hu et al.11)",
+      "n50_mb": 3.39,
+      "total_length_mb": 678.9
+    },
+    {
+      "data_record": null,
+      "genome": "C. mollissima var. early-maturing (ZS) (Hu et al.11)",
+      "n50_mb": 2.17,
+      "total_length_mb": 790.99
+    },
+    {
+      "data_record": null,
+      "genome": "C. mollissima var. easy-pruning (YH) (Hu et al.11)",
+      "n50_mb": 3.65,
+      "total_length_mb": 671.99
+    }
+  ]
+}

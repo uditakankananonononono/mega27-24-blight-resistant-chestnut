@@ -1,0 +1,1 @@
+Accession(s) DRA012289 not valid for search requests on study data. Supported accession types are:study [ ^(PRJ[A-Z]{2}[0-9]+)$ ], taxon [ ^[0-9]+$ ], study (secondary) [ ^([EDSR]RP[0-9]{6,})$ ]
