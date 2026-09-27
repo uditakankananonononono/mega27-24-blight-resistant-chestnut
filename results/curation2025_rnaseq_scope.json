@@ -1,0 +1,56 @@
+{
+  "article_sha256": "7eed2f0e23bbdeee138892dd186b3a099e0549af08a15f94a2e9c647c4f8eac2",
+  "checks": {
+    "geo_series": [
+      {
+        "accession": "GSE284510",
+        "esummary_sha256": "bfebccf1afa202ecb3839b9303369cc14adf762b26374ad0be228df4827a46e8",
+        "n_samples": 7,
+        "title": "Comprehensive curation and validation of genomic datasets for chestnut [1]"
+      },
+      {
+        "accession": "GSE284516",
+        "esummary_sha256": "6947101d26104610e1cd0298f58016ce61e679e3df3d5acfcc11795723ad4d8c",
+        "n_samples": 18,
+        "title": "Comprehensive curation and validation of genomic datasets for chestnut [2]"
+      },
+      {
+        "accession": "GSE284517",
+        "esummary_sha256": "79f9d659a6af11b9a2cf958ff53d4d57a31828bd5da570cdb1c7aeacd68fa56f",
+        "n_samples": 6,
+        "title": "Comprehensive curation and validation of genomic datasets for chestnut [3]"
+      },
+      {
+        "accession": "GSE284518",
+        "esummary_sha256": "a840c8c7fa580631ca337a021ee9c1eeaf1b9c963b29dc13bbe95eae6ee3ace6",
+        "n_samples": 1,
+        "title": "Comprehensive curation and validation of genomic datasets for chestnut"
+      }
+    ],
+    "geo_series_account_for_printed_total": false,
+    "geo_series_sample_sum": 32,
+    "printed_geo_series_in_text": [
+      "GSE284510",
+      "GSE284516",
+      "GSE284517",
+      "GSE284518"
+    ],
+    "printed_rnaseq_samples": 213,
+    "unaccounted_samples": 181
+  },
+  "finding": "The four GEO series cited in the paper text hold 32 samples in total (7+18+6+1) as of 2026-09-28, not the 213 RNA-Seq samples the paper prints for its collection; 181 samples are not accounted for by the cited series. The paper also distributes expression matrices via a Figshare archive, so this is an unresolved scope/provenance gap in the printed records, not proof that 213 samples do not exist.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "geo_fetched": "2026-09-28 via NCBI eutils esearch+esummary db=gds (archived JSON)",
+  "limits": [
+    "Archive-metadata counts only; no expression matrix or read payload downloaded",
+    "GEO sample counts are live values as of 2026-09-28 and can change",
+    "The Figshare file inventory was not enumerated in this audit",
+    "No accession-payload, derivation, comparator, discovery, or paper-page gate credit"
+  ],
+  "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/"
+}
