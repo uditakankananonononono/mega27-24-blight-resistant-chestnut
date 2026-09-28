@@ -1,0 +1,53 @@
+{
+  "column_sums": {
+    "SRR21681158": 16596255,
+    "SRR21681184": 18381185,
+    "SRR21681185": 18416601
+  },
+  "figshare_dataset_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
+  "figshare_file_url": "https://ndownloader.figshare.com/files/49310509",
+  "finding": "These three distinct count columns are labeled as three runs but share one ENA sample accession. The matrix-only run is a non-identical count column for the same accession as two supplement-annotated runs, not a new uniquely accessioned biological specimen.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "gene_count_rows": 33991,
+  "limits": [
+    "Processed distributed gene counts, not individually fetched underlying RNA-seq FASTQ read payloads or independently measured samples.",
+    "Pairwise count correlation within one ENA sample cannot establish cross-sample replication, differential expression or resistance biology.",
+    "The source does not explain whether runs were technical lanes or another design; do not assume they are independent biological replicates.",
+    "No strongest comparator, novel biological discovery, 120-accession dataset or project gate credit."
+  ],
+  "pairwise": {
+    "SRR21681158__SRR21681184": {
+      "exactly_equal_gene_counts": 11294,
+      "pearson_log1p": 0.9806793884835385
+    },
+    "SRR21681158__SRR21681185": {
+      "exactly_equal_gene_counts": 11462,
+      "pearson_log1p": 0.9875714317434866
+    },
+    "SRR21681184__SRR21681185": {
+      "exactly_equal_gene_counts": 11170,
+      "pearson_log1p": 0.9810662007131995
+    }
+  },
+  "run_ids": [
+    "SRR21681158",
+    "SRR21681184",
+    "SRR21681185"
+  ],
+  "same_ena_sample_accession": "SAMN30971621",
+  "same_ena_sample_alias": "Z90",
+  "source_member": "gene_expression/all_exp_raw/count_raw_PE.txt.gz",
+  "source_zip_figshare_md5": "34132bf8c0f62cdc30fda9537ef30d06",
+  "source_zip_sha256": "4d67d18df6b5fff6f80c5ceb8b002e39a892a993205fcf644cb5596e6a7d1f11",
+  "three_column_extract_sha256": "70ae0d02b3157c2e10bc344a2aad21398db095b4e40262284d74c0a018953f1a",
+  "zero_count_rows": {
+    "SRR21681158": 12054,
+    "SRR21681184": 11933,
+    "SRR21681185": 11785
+  }
+}
