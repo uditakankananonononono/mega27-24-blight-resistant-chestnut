@@ -1,0 +1,151 @@
+{
+  "cases": [
+    {
+      "biosample_count": 1,
+      "case_id": "z90_three_runs",
+      "genotype_expression_bridge_verified": false,
+      "mollissima_only_eligible": true,
+      "project_count": 1,
+      "refusals": [
+        "missing_per_biosample_blight_phenotype"
+      ],
+      "resistance_association_eligible": false,
+      "run_count": 3,
+      "same_biosample_run_pair_count": 3,
+      "same_biosample_run_pairs": [
+        [
+          "SRR21681158",
+          "SRR21681184"
+        ],
+        [
+          "SRR21681158",
+          "SRR21681185"
+        ],
+        [
+          "SRR21681184",
+          "SRR21681185"
+        ]
+      ],
+      "species": [
+        "Castanea mollissima"
+      ],
+      "species_count": 1
+    },
+    {
+      "biosample_count": 1,
+      "case_id": "other_repeated_pair",
+      "genotype_expression_bridge_verified": false,
+      "mollissima_only_eligible": true,
+      "project_count": 1,
+      "refusals": [
+        "missing_per_biosample_blight_phenotype"
+      ],
+      "resistance_association_eligible": false,
+      "run_count": 2,
+      "same_biosample_run_pair_count": 1,
+      "same_biosample_run_pairs": [
+        [
+          "SRR21681159",
+          "SRR21681160"
+        ]
+      ],
+      "species": [
+        "Castanea mollissima"
+      ],
+      "species_count": 1
+    },
+    {
+      "biosample_count": 2,
+      "case_id": "mixed_species",
+      "genotype_expression_bridge_verified": false,
+      "mollissima_only_eligible": false,
+      "project_count": 2,
+      "refusals": [
+        "mixed_species_for_mollissima_only",
+        "missing_per_biosample_blight_phenotype"
+      ],
+      "resistance_association_eligible": false,
+      "run_count": 2,
+      "same_biosample_run_pair_count": 0,
+      "same_biosample_run_pairs": [],
+      "species": [
+        "Castanea mollissima",
+        "Castanea sativa"
+      ],
+      "species_count": 2
+    },
+    {
+      "biosample_count": 2,
+      "case_id": "distinct_mollissima_samples",
+      "genotype_expression_bridge_verified": false,
+      "mollissima_only_eligible": true,
+      "project_count": 1,
+      "refusals": [
+        "missing_per_biosample_blight_phenotype"
+      ],
+      "resistance_association_eligible": false,
+      "run_count": 2,
+      "same_biosample_run_pair_count": 0,
+      "same_biosample_run_pairs": [],
+      "species": [
+        "Castanea mollissima"
+      ],
+      "species_count": 1
+    },
+    {
+      "biosample_count": 180,
+      "case_id": "all_expression_columns",
+      "genotype_expression_bridge_verified": false,
+      "mollissima_only_eligible": false,
+      "project_count": 14,
+      "refusals": [
+        "mixed_species_for_mollissima_only",
+        "missing_per_biosample_blight_phenotype"
+      ],
+      "resistance_association_eligible": false,
+      "run_count": 213,
+      "same_biosample_run_pair_count": 55,
+      "same_biosample_run_pairs": null,
+      "species": [
+        "Castanea mollissima",
+        "Castanea sativa"
+      ],
+      "species_count": 2
+    },
+    {
+      "biosample_count": 1,
+      "case_id": "genotype_expression_bridge_unverified",
+      "genotype_expression_bridge_verified": false,
+      "mollissima_only_eligible": true,
+      "project_count": 1,
+      "refusals": [
+        "missing_per_biosample_blight_phenotype",
+        "unverified_vcf_to_biosample_bridge"
+      ],
+      "resistance_association_eligible": false,
+      "run_count": 1,
+      "same_biosample_run_pair_count": 0,
+      "same_biosample_run_pairs": [],
+      "species": [
+        "Castanea mollissima"
+      ],
+      "species_count": 1
+    }
+  ],
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "The typed evidence graph prevents run-column pseudo-replication, mixed-species cohort inference and genotype-to-expression or resistance links absent source crosswalks.",
+  "limits": [
+    "All six cases are hand-constructed after metadata inspection and have no independent held-out labels or biological resistance phenotypes.",
+    "No genotype-expression or blight-phenotype mapping was established; all resistance conclusions abstain by design.",
+    "Evidence graphs and BioSample metadata normalization have prior art; this prototype has not established algorithmic novelty or a fair comparator win.",
+    "Source runinfo records are metadata; no raw accession read payloads were fetched."
+  ],
+  "source_crosswalk_sha256": "7033c8c09d0793b99a503f857fc22d98e94a8d1486c7478c8f63787f1d58baff",
+  "source_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
+  "sra_runinfo_url": "https://trace.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo"
+}

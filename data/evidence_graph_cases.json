@@ -1,0 +1,8 @@
+[
+ {"id":"z90_three_runs","runs":["SRR21681158","SRR21681184","SRR21681185"],"expected_run_count":3,"expected_biosample_count":1,"expected_species_count":1},
+ {"id":"other_repeated_pair","runs":["SRR21681159","SRR21681160"],"expected_run_count":2,"expected_biosample_count":1,"expected_species_count":1},
+ {"id":"mixed_species","runs":["SRR8305472","SRR9055935"],"expected_run_count":2,"expected_biosample_count":2,"expected_species_count":2},
+ {"id":"distinct_mollissima_samples","runs":["SRR21681159","SRR21681162"],"expected_run_count":2,"expected_biosample_count":2,"expected_species_count":1},
+ {"id":"all_expression_columns","runs":"all","expected_run_count":213,"expected_biosample_count":180,"expected_species_count":2},
+ {"id":"genotype_expression_bridge_unverified","runs":["SRR21681158"],"vcf_manifest_label":"SZ_15","expected_run_count":1,"expected_biosample_count":1,"expected_species_count":1}
+]
