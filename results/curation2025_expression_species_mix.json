@@ -1,0 +1,98 @@
+{
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/",
+  "figshare_dataset_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
+  "finding": "Four of 213 distributed expression columns have an SRA Castanea sativa species label, from one BioProject, each a distinct BioSample accession; the linked article supplement annotates them as bud, full budburst, two cultivars.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "The article presents curated datasets across eight Castanea species; the four records are not proof of a curation mistake. They flag mixed species if treating all 213 expression columns as one C. mollissima-only cohort.",
+    "One cultivar name may refer to a hybrid; this audit reports only SRA taxonomy labels, not genetic ancestry or a species assay.",
+    "Four BioSamples do not establish four independent trees, disease phenotypes or blight-resistance labels.",
+    "No read payloads, biological contrast, comparator or new biological discovery is established by this metadata audit."
+  ],
+  "matrix_run_columns": 213,
+  "non_mollissima_records": [
+    {
+      "bioproject": "PRJNA509688",
+      "biosample": "SAMN10586969",
+      "matrix_label": "SRR8305472",
+      "matrix_layout": "PE",
+      "run": "SRR8305472",
+      "scientific_name": "Castanea sativa",
+      "sra_layout": "PAIRED",
+      "supplement_cultivar": "Madonna",
+      "supplement_library": "paired end",
+      "supplement_stage": "full budburst",
+      "supplement_tissue": "bud"
+    },
+    {
+      "bioproject": "PRJNA509688",
+      "biosample": "SAMN10586967",
+      "matrix_label": "SRR8305473",
+      "matrix_layout": "PE",
+      "run": "SRR8305473",
+      "scientific_name": "Castanea sativa",
+      "sra_layout": "PAIRED",
+      "supplement_cultivar": "Bouche de Betizac",
+      "supplement_library": "paired end",
+      "supplement_stage": "full budburst",
+      "supplement_tissue": "bud"
+    },
+    {
+      "bioproject": "PRJNA509688",
+      "biosample": "SAMN10586965",
+      "matrix_label": "SRR8305474",
+      "matrix_layout": "PE",
+      "run": "SRR8305474",
+      "scientific_name": "Castanea sativa",
+      "sra_layout": "PAIRED",
+      "supplement_cultivar": "Madonna",
+      "supplement_library": "paired end",
+      "supplement_stage": "full budburst",
+      "supplement_tissue": "bud"
+    },
+    {
+      "bioproject": "PRJNA509688",
+      "biosample": "SAMN10586963",
+      "matrix_label": "SRR8305475",
+      "matrix_layout": "PE",
+      "run": "SRR8305475",
+      "scientific_name": "Castanea sativa",
+      "sra_layout": "PAIRED",
+      "supplement_cultivar": "Bouche de Betizac",
+      "supplement_library": "paired end",
+      "supplement_stage": "full budburst",
+      "supplement_tissue": "bud"
+    }
+  ],
+  "source_sha256": {
+    "prior_crosswalk": "7033c8c09d0793b99a503f857fc22d98e94a8d1486c7478c8f63787f1d58baff",
+    "sra_chunks": {
+      "chestnut-sra-runinfo-00.csv": "a7b82f089fbb55ad2cf3ede66435a80b19ab205654a319fe9405d4ea91e11492",
+      "chestnut-sra-runinfo-01.csv": "f037d21bf9c3456315ea070f938fb3a33bcfe7053a17d5cbb4b11e182220c524",
+      "chestnut-sra-runinfo-02.csv": "f27ba9d2f8040292c115334f6eb78a6bacbcc2574baf7ba03c90b69df0eb8208",
+      "chestnut-sra-runinfo-03.csv": "08f5597be62fb4d06b14d1f1a3f81501822b57044fa981652fb64f7c8c4d3254",
+      "chestnut-sra-runinfo-04.csv": "66af6a7e6aa0c2c1976ac2ca06986ee69094b09b361de5cce52c9a4b766b4ce7",
+      "chestnut-sra-runinfo-05.csv": "c779e04c7b8d203d7987aecc0e316460a1d88626b7041e1fd8520f2813bae491",
+      "chestnut-sra-runinfo-06.csv": "034d774683c449b68213d6af61790ea4112a2c196ecbf94cbe6d2d74fc7c3c25",
+      "chestnut-sra-runinfo-07.csv": "11abb3db0b5c0a05b2d5ce59055ad95c7f9be2fa8f2db080d594ea86717fd65a",
+      "chestnut-sra-runinfo-08.csv": "a243f71bedb3d08d11d0f2e03b9c780059eacce43b75400520f140cfbfaf53a5",
+      "chestnut-sra-runinfo-09.csv": "aa1a6c3ff1f9d9877492f486eadb2fddb6e74015b7dbc9821e5ee15b6c5f101e",
+      "chestnut-sra-runinfo-10.csv": "7c168243adf5318d5b73cca280b800b93aec7328520f35ffbc129b3f50bb0d6f"
+    },
+    "supplement": "373d3e7901a5c7276b891e71cb49ddd1fc52bff12a7d2d9919ed5bd93e6058dc"
+  },
+  "species_labeled_distinct_biosamples": {
+    "Castanea mollissima": 176,
+    "Castanea sativa": 4
+  },
+  "species_labeled_run_columns": {
+    "Castanea mollissima": 209,
+    "Castanea sativa": 4
+  },
+  "sra_source_url": "https://trace.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo"
+}
