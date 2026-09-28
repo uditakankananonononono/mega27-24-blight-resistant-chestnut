@@ -1,0 +1,274 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "layouts": {
+    "PE": {
+      "gene_rows": 33991,
+      "project_pairs": {
+        "PRJNA509688": {
+          "different_biosample": {
+            "count": 6,
+            "max": 0.9831782239955095,
+            "median": 0.9521544678116476,
+            "min": 0.9437886077897789,
+            "q25": 0.9502321270157561,
+            "q75": 0.9743872670430855
+          },
+          "distinct_biosamples": 4,
+          "median_same_minus_different": null,
+          "run_columns": 4,
+          "same_biosample": {
+            "count": 0
+          }
+        },
+        "PRJNA540079": {
+          "different_biosample": {
+            "count": 990,
+            "max": 0.9811655102339705,
+            "median": 0.9444416383576724,
+            "min": 0.8401680848035202,
+            "q25": 0.901775500877184,
+            "q75": 0.9573503487028836
+          },
+          "distinct_biosamples": 45,
+          "median_same_minus_different": null,
+          "run_columns": 45,
+          "same_biosample": {
+            "count": 0
+          }
+        },
+        "PRJNA562370": {
+          "different_biosample": {
+            "count": 4,
+            "max": 0.9859696989338419,
+            "median": 0.9323602746845849,
+            "min": 0.9097567865194617,
+            "q25": 0.9223425503566236,
+            "q75": 0.9501294830335798
+          },
+          "distinct_biosamples": 2,
+          "median_same_minus_different": -0.0038242107264180314,
+          "run_columns": 4,
+          "same_biosample": {
+            "count": 2,
+            "max": 0.9299176306736581,
+            "median": 0.9285360639581669,
+            "min": 0.9271544972426757,
+            "q25": 0.9278452806004214,
+            "q75": 0.9292268473159124
+          }
+        },
+        "PRJNA573571": {
+          "different_biosample": {
+            "count": 19,
+            "max": 0.9933908481639024,
+            "median": 0.987848931244851,
+            "min": 0.9873055428339254,
+            "q25": 0.9875515744272685,
+            "q75": 0.992842136491721
+          },
+          "distinct_biosamples": 5,
+          "median_same_minus_different": 0.012151068755149042,
+          "run_columns": 7,
+          "same_biosample": {
+            "count": 2,
+            "max": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "PRJNA574282": {
+          "different_biosample": {
+            "count": 153,
+            "max": 0.986231943036866,
+            "median": 0.9271856057406022,
+            "min": 0.8563163852260351,
+            "q25": 0.907671986900253,
+            "q75": 0.9415869939018837
+          },
+          "distinct_biosamples": 18,
+          "median_same_minus_different": null,
+          "run_columns": 18,
+          "same_biosample": {
+            "count": 0
+          }
+        },
+        "PRJNA772286": {
+          "different_biosample": {
+            "count": 153,
+            "max": 0.9929596331321325,
+            "median": 0.9444935616304078,
+            "min": 0.8778020596234359,
+            "q25": 0.9219370962811838,
+            "q75": 0.9586379191082248
+          },
+          "distinct_biosamples": 18,
+          "median_same_minus_different": null,
+          "run_columns": 18,
+          "same_biosample": {
+            "count": 0
+          }
+        },
+        "PRJNA786529": {
+          "different_biosample": {
+            "count": 9,
+            "max": 0.9334288708505472,
+            "median": 0.930281426564597,
+            "min": 0.9288652825465473,
+            "q25": 0.9292398058582034,
+            "q75": 0.9332485222360276
+          },
+          "distinct_biosamples": 2,
+          "median_same_minus_different": 0.060940805923994756,
+          "run_columns": 6,
+          "same_biosample": {
+            "count": 6,
+            "max": 0.9940857568380703,
+            "median": 0.9912222324885918,
+            "min": 0.9850180575272189,
+            "q25": 0.9884085101410384,
+            "q75": 0.9938501532533158
+          }
+        },
+        "PRJNA862256": {
+          "different_biosample": {
+            "count": 36,
+            "max": 0.9910434291851449,
+            "median": 0.9419184069912605,
+            "min": 0.8323877225560623,
+            "q25": 0.9177702477039322,
+            "q75": 0.9704589938357376
+          },
+          "distinct_biosamples": 9,
+          "median_same_minus_different": null,
+          "run_columns": 9,
+          "same_biosample": {
+            "count": 0
+          }
+        },
+        "PRJNA883560": {
+          "different_biosample": {
+            "count": 405,
+            "max": 0.9799723450269194,
+            "median": 0.9403080377922274,
+            "min": 0.8457345008612596,
+            "q25": 0.9129169180661896,
+            "q75": 0.9642378065081423
+          },
+          "distinct_biosamples": 10,
+          "median_same_minus_different": 0.04631116569220273,
+          "run_columns": 30,
+          "same_biosample": {
+            "count": 30,
+            "max": 0.9908824092265077,
+            "median": 0.9866192034844301,
+            "min": 0.9806793884835364,
+            "q25": 0.9854913728228729,
+            "q75": 0.9875712738648066
+          }
+        },
+        "PRJNA957852": {
+          "different_biosample": {
+            "count": 91,
+            "max": 0.9838449450971558,
+            "median": 0.9356089830772805,
+            "min": 0.8889102087717226,
+            "q25": 0.9168992341140078,
+            "q75": 0.9509015082999882
+          },
+          "distinct_biosamples": 14,
+          "median_same_minus_different": null,
+          "run_columns": 14,
+          "same_biosample": {
+            "count": 0
+          }
+        }
+      },
+      "run_columns": 156,
+      "source_sha256": "2badb1cfe317ab201cb4931ef48c49dd6779f9b065b43fa10d933925a23ccb8d",
+      "total_different_biosample_pairs": 1866,
+      "total_same_biosample_pairs": 40
+    },
+    "SE": {
+      "gene_rows": 33991,
+      "project_pairs": {
+        "PRJNA512447": {
+          "different_biosample": {
+            "count": 528,
+            "max": 0.9936932744406545,
+            "median": 0.9546153561250135,
+            "min": 0.8830933784125699,
+            "q25": 0.9307066049011349,
+            "q75": 0.9684345879795073
+          },
+          "distinct_biosamples": 33,
+          "median_same_minus_different": null,
+          "run_columns": 33,
+          "same_biosample": {
+            "count": 0
+          }
+        },
+        "PRJNA791965": {
+          "different_biosample": {
+            "count": 153,
+            "max": 0.993689261074238,
+            "median": 0.9508277737386733,
+            "min": 0.8871407914152372,
+            "q25": 0.936460147795968,
+            "q75": 0.9665733957137629
+          },
+          "distinct_biosamples": 18,
+          "median_same_minus_different": null,
+          "run_columns": 18,
+          "same_biosample": {
+            "count": 0
+          }
+        }
+      },
+      "run_columns": 51,
+      "source_sha256": "f8bc08de0cb8e2f429a59569ce428265581df12b7118f125bf884b04c170dd42",
+      "total_different_biosample_pairs": 681,
+      "total_same_biosample_pairs": 0
+    },
+    "SS": {
+      "gene_rows": 33991,
+      "project_pairs": {
+        "PRJNA912750": {
+          "different_biosample": {
+            "count": 0
+          },
+          "distinct_biosamples": 1,
+          "median_same_minus_different": null,
+          "run_columns": 6,
+          "same_biosample": {
+            "count": 15,
+            "max": 0.9487073998756258,
+            "median": 0.8279770776489781,
+            "min": 0.7937750421877203,
+            "q25": 0.807990125336147,
+            "q75": 0.8502123796950506
+          }
+        }
+      },
+      "run_columns": 6,
+      "source_sha256": "7ffec4b2ac4d3c0cb09929bc4503855c9cee7faecd11419cb60361a192b5a05e",
+      "total_different_biosample_pairs": 0,
+      "total_same_biosample_pairs": 15
+    }
+  },
+  "limits": [
+    "Correlations of processed count columns across genes are descriptive QC, not independent biological replication or resistance analysis.",
+    "Run pairs sharing samples or projects are dependent; no inferential p-value or classifier is fit.",
+    "The source matrices are extracted processed Figshare members, not 213 individually fetched raw-read FASTQ payloads.",
+    "The 213 matrix columns span species, tissues, projects and preparations; no pooled cross-project biological contrast is claimed."
+  ],
+  "predeclared_question": "prereg/2026-09-28-run-versus-biosample-count-similarity.md",
+  "source_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
+  "zip_sha256_verified_at_extraction": "4d67d18df6b5fff6f80c5ceb8b002e39a892a993205fcf644cb5596e6a7d1f11"
+}
