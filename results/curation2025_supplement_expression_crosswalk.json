@@ -1,0 +1,1744 @@
+{
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12103606/",
+  "exact_matrix_only_labels": [
+    "SRR21681158",
+    "SRR8383229_SHW_Gall_A2"
+  ],
+  "exact_table_only_labels": [
+    "SRR8383229"
+  ],
+  "extra_matrix_run_id": "SRR21681158",
+  "figshare_archived_header_json_sha256": "bab94dcfbea3606c9da49a1df12abddfdfdacda17abd036807561717b09e0aa6",
+  "figshare_dataset_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
+  "figshare_fpkm_columns": 213,
+  "figshare_raw_columns_by_layout": {
+    "gene_expression/all_exp_raw/count_raw_PE.txt.gz": 156,
+    "gene_expression/all_exp_raw/count_raw_SE.txt.gz": 51,
+    "gene_expression/all_exp_raw/count_raw_SS.txt.gz": 6
+  },
+  "finding": "After one transparent SRR-prefix label correspondence, 212 unique Supplementary Table 1 run IDs are covered by the 213 Figshare matrix sample columns, with one additional matrix run ID (SRR21681158) absent from S1.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "The matrix column and table row counts are metadata counts, not separately downloaded RNA-seq reads or expression analyses.",
+    "The source does not explain why SRR21681158 is absent from S1; do not label it an invalid biological sample or assume a processing error.",
+    "The SRR8383229 suffix is a label-level correspondence only, not independent verification of the sample identity.",
+    "No accession payload, phenotype, comparator, new discovery or project gate credit."
+  ],
+  "prefix_normalized_matrix_only": [
+    "SRR21681158"
+  ],
+  "prefix_normalized_table_only": [],
+  "suffix_correspondence_by_run_prefix": [
+    {
+      "matrix_label": "SRR8383229_SHW_Gall_A2",
+      "table_id": "SRR8383229"
+    }
+  ],
+  "supplement_distinct_run_ids": 212,
+  "supplement_id_rows": 212,
+  "supplement_xlsx_sha256": "373d3e7901a5c7276b891e71cb49ddd1fc52bff12a7d2d9919ed5bd93e6058dc",
+  "supplement_zip_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12103606/supplementaryFiles",
+  "table_records": [
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "Embryonic development I",
+      "excel_row": 4,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055935",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "Embryonic development I",
+      "excel_row": 5,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055936",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "Embryonic development I",
+      "excel_row": 6,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055953",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 7,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055937",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 8,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055938",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 9,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055940",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 2",
+      "development_stage": "Embryonic development I",
+      "excel_row": 10,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055939",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 2",
+      "development_stage": "Embryonic development I",
+      "excel_row": 11,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055941",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 2",
+      "development_stage": "Embryonic development I",
+      "excel_row": 12,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055942",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 13,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199572",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 14,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199581",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 15,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199582",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 16,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055956",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 17,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055957",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development I",
+      "excel_row": 18,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055958",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 2",
+      "development_stage": "Embryonic development I",
+      "excel_row": 19,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055954",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 2",
+      "development_stage": "Embryonic development I",
+      "excel_row": 20,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055959",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 2",
+      "development_stage": "Embryonic development I",
+      "excel_row": 21,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055960",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development I",
+      "excel_row": 22,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055955",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development I",
+      "excel_row": 23,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055961",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development I",
+      "excel_row": 24,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055962",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development I",
+      "excel_row": 25,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199569",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development I",
+      "excel_row": 26,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199570",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development I",
+      "excel_row": 27,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199571",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "Embryonic development II",
+      "excel_row": 28,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055963",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "Embryonic development II",
+      "excel_row": 29,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055964",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "Embryonic development II",
+      "excel_row": 30,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055968",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 31,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055944",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 32,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055945",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 33,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055946",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 2",
+      "development_stage": "Embryonic development II",
+      "excel_row": 34,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055943",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 2",
+      "development_stage": "Embryonic development II",
+      "excel_row": 35,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055949",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 2",
+      "development_stage": "Embryonic development II",
+      "excel_row": 36,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055950",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 37,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055933",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 38,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055934",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 39,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199566",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 40,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199567",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 41,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199568",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development II",
+      "excel_row": 42,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055969",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 2",
+      "development_stage": "Embryonic development II",
+      "excel_row": 43,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055965",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 2",
+      "development_stage": "Embryonic development II",
+      "excel_row": 44,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055966",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 2",
+      "development_stage": "Embryonic development II",
+      "excel_row": 45,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055967",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development II",
+      "excel_row": 46,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199565",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development II",
+      "excel_row": 47,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055970",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development II",
+      "excel_row": 48,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055971",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development II",
+      "excel_row": 49,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055972",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development II",
+      "excel_row": 50,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199579",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development II",
+      "excel_row": 51,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199580",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 52,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055929",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 53,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055930",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yimen 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 54,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055973",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 55,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055947",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 56,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055948",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 57,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055952",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 58,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199576",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 59,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199577",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongfeng 1",
+      "development_stage": "Embryonic development III",
+      "excel_row": 60,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199578",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development III",
+      "excel_row": 61,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055931",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development III",
+      "excel_row": 62,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055932",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development III",
+      "excel_row": 63,
+      "library_layout": "paired end",
+      "run_accession": "SRR9055951",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development III",
+      "excel_row": 64,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199573",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development III",
+      "excel_row": 65,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199574",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "Yongrenzao",
+      "development_stage": "Embryonic development III",
+      "excel_row": 66,
+      "library_layout": "paired end",
+      "run_accession": "SRR10199575",
+      "tissue": "seed kernel"
+    },
+    {
+      "cultivar": "S20-3",
+      "development_stage": "20 days after flowering",
+      "excel_row": 67,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726139",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S20-2",
+      "development_stage": "20 days after flowering",
+      "excel_row": 68,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726140",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S20-1",
+      "development_stage": "20 days after flowering",
+      "excel_row": 69,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726141",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S25-3",
+      "development_stage": "25 days after flowering",
+      "excel_row": 70,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726136",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S25-2",
+      "development_stage": "25 days after flowering",
+      "excel_row": 71,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726137",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S25-1",
+      "development_stage": "25 days after flowering",
+      "excel_row": 72,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726138",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S30-3",
+      "development_stage": "30 days after flowering",
+      "excel_row": 73,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726133",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S30-2",
+      "development_stage": "30 days after flowering",
+      "excel_row": 74,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726134",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "S30-1",
+      "development_stage": "30 days after flowering",
+      "excel_row": 75,
+      "library_layout": "paired end",
+      "run_accession": "SRR20726135",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Madonna",
+      "development_stage": "full budburst",
+      "excel_row": 76,
+      "library_layout": "paired end",
+      "run_accession": "SRR8305472",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Madonna",
+      "development_stage": "full budburst",
+      "excel_row": 77,
+      "library_layout": "paired end",
+      "run_accession": "SRR8305474",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Bouche de Betizac",
+      "development_stage": "full budburst",
+      "excel_row": 78,
+      "library_layout": "paired end",
+      "run_accession": "SRR8305473",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Bouche de Betizac",
+      "development_stage": "full budburst",
+      "excel_row": 79,
+      "library_layout": "paired end",
+      "run_accession": "SRR8305475",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 80,
+      "library_layout": "single end",
+      "run_accession": "SRR17325574",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 81,
+      "library_layout": "single end",
+      "run_accession": "SRR17325575",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 82,
+      "library_layout": "single end",
+      "run_accession": "SRR17325576",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 83,
+      "library_layout": "single end",
+      "run_accession": "SRR17325577",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 84,
+      "library_layout": "single end",
+      "run_accession": "SRR17325578",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 85,
+      "library_layout": "single end",
+      "run_accession": "SRR17325579",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 86,
+      "library_layout": "single end",
+      "run_accession": "SRR17325580",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 87,
+      "library_layout": "single end",
+      "run_accession": "SRR17325581",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 88,
+      "library_layout": "single end",
+      "run_accession": "SRR17325582",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 89,
+      "library_layout": "single end",
+      "run_accession": "SRR17325583",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 90,
+      "library_layout": "single end",
+      "run_accession": "SRR17325584",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 91,
+      "library_layout": "single end",
+      "run_accession": "SRR17325585",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 92,
+      "library_layout": "single end",
+      "run_accession": "SRR17325586",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 93,
+      "library_layout": "single end",
+      "run_accession": "SRR17325587",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 94,
+      "library_layout": "single end",
+      "run_accession": "SRR17325588",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 95,
+      "library_layout": "single end",
+      "run_accession": "SRR17325589",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 96,
+      "library_layout": "single end",
+      "run_accession": "SRR17325590",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 97,
+      "library_layout": "single end",
+      "run_accession": "SRR17325591",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Bud1",
+      "excel_row": 98,
+      "library_layout": "single end",
+      "run_accession": "SRR8383247",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Bud2",
+      "excel_row": 99,
+      "library_layout": "single end",
+      "run_accession": "SRR8383248",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Bud3",
+      "excel_row": 100,
+      "library_layout": "single end",
+      "run_accession": "SRR8383234",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Bud1",
+      "excel_row": 101,
+      "library_layout": "single end",
+      "run_accession": "SRR8383243",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Bud2",
+      "excel_row": 102,
+      "library_layout": "single end",
+      "run_accession": "SRR8383244",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Bud3",
+      "excel_row": 103,
+      "library_layout": "single end",
+      "run_accession": "SRR8383241",
+      "tissue": "bud"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 104,
+      "library_layout": "paired end",
+      "run_accession": "SRR10350465",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 105,
+      "library_layout": "paired end",
+      "run_accession": "SRR10350466",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 106,
+      "library_layout": "paired end",
+      "run_accession": "SRR10479848",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 107,
+      "library_layout": "paired end",
+      "run_accession": "SRR10479849",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 108,
+      "library_layout": "paired end",
+      "run_accession": "SRR10479851",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 109,
+      "library_layout": "paired end",
+      "run_accession": "SRR10479853",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 110,
+      "library_layout": "paired end",
+      "run_accession": "SRR10479852",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "60 days after flowering",
+      "excel_row": 111,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681175",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "60 days after flowering",
+      "excel_row": 112,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681186",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "60 days after flowering",
+      "excel_row": 113,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681187",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "60 days after flowering",
+      "excel_row": 114,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681178",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "60 days after flowering",
+      "excel_row": 115,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681179",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "60 days after flowering",
+      "excel_row": 116,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681180",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "70 days after flowering",
+      "excel_row": 117,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681162",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "70 days after flowering",
+      "excel_row": 118,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681163",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "70 days after flowering",
+      "excel_row": 119,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681164",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "70 days after flowering",
+      "excel_row": 120,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681174",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "70 days after flowering",
+      "excel_row": 121,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681176",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "70 days after flowering",
+      "excel_row": 122,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681177",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "80 days after flowering",
+      "excel_row": 123,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681159",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "80 days after flowering",
+      "excel_row": 124,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681160",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "80 days after flowering",
+      "excel_row": 125,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681161",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "80 days after flowering",
+      "excel_row": 126,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681171",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "80 days after flowering",
+      "excel_row": 127,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681172",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "80 days after flowering",
+      "excel_row": 128,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681173",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "90 days after flowering",
+      "excel_row": 130,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681184",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "90 days after flowering",
+      "excel_row": 131,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681185",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "90 days after flowering",
+      "excel_row": 132,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681168",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "90 days after flowering",
+      "excel_row": 133,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681169",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "90 days after flowering",
+      "excel_row": 134,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681170",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "100 days after flowering",
+      "excel_row": 135,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681181",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "100 days after flowering",
+      "excel_row": 136,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681182",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanshanzaofeng",
+      "development_stage": "100 days after flowering",
+      "excel_row": 137,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681183",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "100 days after flowering",
+      "excel_row": 138,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681165",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "100 days after flowering",
+      "excel_row": 139,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681166",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Yanlong",
+      "development_stage": "100 days after flowering",
+      "excel_row": 140,
+      "library_layout": "paired end",
+      "run_accession": "SRR21681167",
+      "tissue": "embryo"
+    },
+    {
+      "cultivar": "Lan You",
+      "development_stage": "Mature( Fruiting period of chestnut)",
+      "excel_row": 141,
+      "library_layout": "paired end",
+      "run_accession": "SRR22978878",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Lan You",
+      "development_stage": "Mature( Fruiting period of chestnut)",
+      "excel_row": 142,
+      "library_layout": "paired end",
+      "run_accession": "SRR22978879",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Lan You",
+      "development_stage": "Mature( Fruiting period of chestnut)",
+      "excel_row": 143,
+      "library_layout": "paired end",
+      "run_accession": "SRR22978880",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Lan You",
+      "development_stage": "Mature( Fruiting period of chestnut)",
+      "excel_row": 144,
+      "library_layout": "paired end",
+      "run_accession": "SRR22978881",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Lan You",
+      "development_stage": "Mature( Fruiting period of chestnut)",
+      "excel_row": 145,
+      "library_layout": "paired end",
+      "run_accession": "SRR22978882",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Lan You",
+      "development_stage": "Mature( Fruiting period of chestnut)",
+      "excel_row": 146,
+      "library_layout": "paired end",
+      "run_accession": "SRR22978883",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall A1",
+      "excel_row": 147,
+      "library_layout": "single end",
+      "run_accession": "SRR8383230",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall A2",
+      "excel_row": 148,
+      "library_layout": "single end",
+      "run_accession": "SRR8383229",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall A3",
+      "excel_row": 149,
+      "library_layout": "single end",
+      "run_accession": "SRR8383228",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall B1",
+      "excel_row": 150,
+      "library_layout": "single end",
+      "run_accession": "SRR8383227",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall B2",
+      "excel_row": 151,
+      "library_layout": "single end",
+      "run_accession": "SRR8383236",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall B3",
+      "excel_row": 152,
+      "library_layout": "single end",
+      "run_accession": "SRR8383235",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall C1",
+      "excel_row": 153,
+      "library_layout": "single end",
+      "run_accession": "SRR8383257",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall C2",
+      "excel_row": 154,
+      "library_layout": "single end",
+      "run_accession": "SRR8383258",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW Gall C3",
+      "excel_row": 155,
+      "library_layout": "single end",
+      "run_accession": "SRR8383259",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW CK1",
+      "excel_row": 156,
+      "library_layout": "single end",
+      "run_accession": "SRR8383233",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW CK2",
+      "excel_row": 157,
+      "library_layout": "single end",
+      "run_accession": "SRR8383232",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Shuhe Wuyingli",
+      "development_stage": "SHW CK3",
+      "excel_row": 158,
+      "library_layout": "single end",
+      "run_accession": "SRR8383231",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall A1",
+      "excel_row": 159,
+      "library_layout": "single end",
+      "run_accession": "SRR8383237",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall A2",
+      "excel_row": 160,
+      "library_layout": "single end",
+      "run_accession": "SRR8383238",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall A3",
+      "excel_row": 161,
+      "library_layout": "single end",
+      "run_accession": "SRR8383245",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall B1",
+      "excel_row": 162,
+      "library_layout": "single end",
+      "run_accession": "SRR8383246",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall B2",
+      "excel_row": 163,
+      "library_layout": "single end",
+      "run_accession": "SRR8383255",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall B3",
+      "excel_row": 164,
+      "library_layout": "single end",
+      "run_accession": "SRR8383256",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall C1",
+      "excel_row": 165,
+      "library_layout": "single end",
+      "run_accession": "SRR8383253",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall C2",
+      "excel_row": 166,
+      "library_layout": "single end",
+      "run_accession": "SRR8383254",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall C3",
+      "excel_row": 167,
+      "library_layout": "single end",
+      "run_accession": "SRR8383251",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall D1",
+      "excel_row": 168,
+      "library_layout": "single end",
+      "run_accession": "SRR8383252",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall D2",
+      "excel_row": 169,
+      "library_layout": "single end",
+      "run_accession": "SRR8383249",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL Gall D3",
+      "excel_row": 170,
+      "library_layout": "single end",
+      "run_accession": "SRR8383250",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL CK1",
+      "excel_row": 171,
+      "library_layout": "single end",
+      "run_accession": "SRR8383242",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL CK2",
+      "excel_row": 172,
+      "library_layout": "single end",
+      "run_accession": "SRR8383239",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Hongli",
+      "development_stage": "HL CK3",
+      "excel_row": 173,
+      "library_layout": "single end",
+      "run_accession": "SRR8383240",
+      "tissue": "leaf"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 174,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473439",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 175,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473440",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 176,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473441",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 177,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473444",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 178,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473445",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 179,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473446",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 180,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473447",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 181,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473452",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 182,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473453",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 183,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473454",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 184,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473455",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 185,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473456",
+      "tissue": "somatic embryo"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 186,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473442",
+      "tissue": "callus"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 187,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473443",
+      "tissue": "callus"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 188,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473448",
+      "tissue": "callus"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 189,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473449",
+      "tissue": "callus"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 190,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473450",
+      "tissue": "callus"
+    },
+    {
+      "cultivar": "Yanshanhongli",
+      "development_stage": "missing",
+      "excel_row": 191,
+      "library_layout": "paired end",
+      "run_accession": "SRR16473451",
+      "tissue": "callus"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "1months",
+      "excel_row": 192,
+      "library_layout": "paired end",
+      "run_accession": "SRR17140804",
+      "tissue": "root"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "1months",
+      "excel_row": 193,
+      "library_layout": "paired end",
+      "run_accession": "SRR17140805",
+      "tissue": "root"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "1months",
+      "excel_row": 194,
+      "library_layout": "paired end",
+      "run_accession": "SRR17140806",
+      "tissue": "root"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "3months",
+      "excel_row": 195,
+      "library_layout": "paired end",
+      "run_accession": "SRR17139641",
+      "tissue": "root"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "3months",
+      "excel_row": 196,
+      "library_layout": "paired end",
+      "run_accession": "SRR17139642",
+      "tissue": "root"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "3months",
+      "excel_row": 197,
+      "library_layout": "paired end",
+      "run_accession": "SRR17139643",
+      "tissue": "root"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 198,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234831",
+      "tissue": "insect galls "
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 199,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234832",
+      "tissue": "insect galls "
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 200,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234833",
+      "tissue": "insect galls "
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 201,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234834",
+      "tissue": "insect galls "
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 202,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234835",
+      "tissue": "insect galls "
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 203,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234840",
+      "tissue": "insect galls "
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 204,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234841",
+      "tissue": "insect galls "
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 205,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234828",
+      "tissue": "galled leaves"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 206,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234829",
+      "tissue": "galled leaves"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 207,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234830",
+      "tissue": "galled leaves"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 208,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234836",
+      "tissue": "galled leaves"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 209,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234837",
+      "tissue": "galled leaves"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 210,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234838",
+      "tissue": "galled leaves"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "Growth period",
+      "excel_row": 211,
+      "library_layout": "paired end",
+      "run_accession": "SRR24234839",
+      "tissue": "galled leaves"
+    },
+    {
+      "cultivar": "Heiqi",
+      "development_stage": "The plants were grown",
+      "excel_row": 212,
+      "library_layout": "paired end",
+      "run_accession": "SRR10028455",
+      "tissue": "inflorescence"
+    },
+    {
+      "cultivar": "Yanhong",
+      "development_stage": "The plants were grown",
+      "excel_row": 213,
+      "library_layout": "paired end",
+      "run_accession": "SRR10028456",
+      "tissue": "inflorescence"
+    },
+    {
+      "cultivar": "Heiqi",
+      "development_stage": "The plants were grown",
+      "excel_row": 214,
+      "library_layout": "paired end",
+      "run_accession": "SRR10053298",
+      "tissue": "inflorescence"
+    },
+    {
+      "cultivar": "Yanhong",
+      "development_stage": "The plants were grown",
+      "excel_row": 215,
+      "library_layout": "paired end",
+      "run_accession": "SRR10053299",
+      "tissue": "inflorescence"
+    },
+    {
+      "cultivar": "missing",
+      "development_stage": "missing",
+      "excel_row": 216,
+      "library_layout": "paired end",
+      "run_accession": "SRR8731962",
+      "tissue": "mix"
+    }
+  ]
+}
