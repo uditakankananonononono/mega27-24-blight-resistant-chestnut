@@ -1,0 +1,5 @@
+# Literal ChatGPT consultation operated in-house, 2026-09-28
+
+Conversation URL: https://chatgpt.com/c/6ab9c8bd-cf38-83e8-b096-77674690fed8
+
+The exact prompt and visible page-rendered reply are archived. The reviewer recognizes a reproducible expression-matrix/Table S1 run-annotation gap and 330 VCF-label manifest reconciliation as narrow data-audit positives, not resistance biology. Its gate table: new biological discovery FAIL, fair strongest published phenotype-baseline win FAIL, frozen matched validation FAIL, mechanism UNEVALUABLE, finished resistance research tool UNEVALUABLE, lab-testable observational measurement nomination PASS. The nomination is blinded infection/severity observations on independent chestnut specimens paired with molecular readouts. Its useful fresh pivot is a predefined phenotype-linked question with correctly resolved biological-sample units and untouched validation, not additional label counting. This is an external opinion based only on the packet, not a verified science-gate completion. The visible response ended before a final sentence closed; no text was invented.

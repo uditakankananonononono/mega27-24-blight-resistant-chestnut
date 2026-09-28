@@ -1,0 +1,95 @@
+Verified positives
+
+The project has identified a real curation/annotation discrepancy: the expression matrix contains 213 SRR-labeled columns while the original supplementary table contains 212 unique SRR rows, with SRR21681158 traceable to C. mollissima, sample SAMN30971621/Z90 and sharing that biological sample accession with two other runs.
+
+The reported sibling-run correlations (~0.981–0.988) are useful evidence that the extra column is not, by itself, proof of a spurious biological sample. The packet appropriately treats this primarily as a run-to-sample annotation problem.
+
+The 330 distinct deposited variant-label strings are a legitimate manifest reconciliation, but the packet correctly does not equate them with 330 independent, phenotype-labeled resistance samples.
+
+Replayed scripts, provenance checks, headers, count-unit checks, and manifest crosswalks constitute useful data-audit infrastructure.
+
+Most importantly, the project is currently making appropriately bounded claims: the packet does not manufacture a resistance gene, benchmark victory, or biological discovery from the curation discrepancies.
+
+Gate table
+Gate	Verdict	Judge's reason
+Genuine new biological discovery	FAIL	No gene-level discovery, resistance association, or new biological phenomenon has been demonstrated. The strongest finding is a data/annotation discrepancy.
+Fair win vs. strongest named published baseline	FAIL	No strongest phenotype-specific comparator has been selected and evaluated on an identical frozen task/cohort.
+Frozen independent same-task validation	FAIL	No frozen independent resistance phenotype cohort with corresponding molecular measurements has been established. The 2025 curation resource is not an independent validation cohort merely because it contains 213 run columns.
+Mechanism check	UNEVALUABLE	There is no demonstrated resistance association to mechanistically interrogate. The run-correlation observation cannot serve as a disease-resistance mechanism.
+Reusable working research tool	UNEVALUABLE	The packet establishes audit scripts/provenance machinery, but does not establish a completed, validated end-user chestnut resistance research tool. The required 40 applied services and other completion gates remain outstanding.
+One lab-testable observational measurement	PASS	A defensible observational endpoint can be nominated: blinded infection/severity measurement on independent chestnut specimens, paired with matched molecular readouts. This tests the biological association without proposing engineered resistance.
+Bottom line on the last gate
+
+The cleanest nomination is:
+
+For independently sampled chestnut specimens, measure infection/disease severity under a predefined blinded scoring scheme and collect matched molecular measurements from the same specimens, then test whether the prespecified molecular signal tracks observed disease severity.
+
+That is an observational measurement, not a construct-design experiment. It would provide the missing biological bridge between the project's computational audit and an actual resistance-associated phenotype.
+
+Material weaknesses
+
+Run count is being kept separate from biological sample count — correctly, but the project has not yet solved the sample-unit problem.
+Fix: produce a complete run → sample accession → individual/line/genotype → phenotype crosswalk, with explicit rules for repeated runs.
+
+The matrix-only SRR is interesting but not a discovery of resistance biology.
+Fix: demonstrate a prespecified biological phenotype association using independently identifiable specimens.
+
+The 330 VCF labels are not a resistance cohort.
+Fix: map each usable variant sample to biological accession and phenotype, retaining only records whose identity and phenotype provenance can actually be established.
+
+No strongest published baseline has been operationalized.
+Fix: preregister one precise prediction task, identify the strongest genuinely comparable published method/model, freeze preprocessing and evaluation, then run both under identical conditions.
+
+There is no independent same-task validation.
+Fix: partition an independently sourced, phenotype-annotated cohort before model selection/tuning and lock it completely until final evaluation.
+
+The current evidence is predominantly data curation rather than chestnut biology.
+Fix: turn the audit into a biological hypothesis only through a prespecified phenotype-linked analysis, rather than treating provenance anomalies as biological signals.
+
+The 120-accession requirement is not satisfied by a focused extract.
+Fix: individually retrieve and document 120 accessioned payloads that actually enter the analysis, with accession-level provenance and usage records.
+
+The project has not reached the claimed research-service/tool threshold.
+Fix: demonstrate the 40 genuinely applied services as reproducible operations with inputs, outputs, provenance, and successful execution records.
+
+The manuscript/evidence gate remains incomplete.
+Fix: reach the 50 substantive rendered body pages without padding and retain the negative/audit findings rather than converting them retrospectively into positive discoveries.
+
+Fresh prespecified published-data pivot
+
+A strong pivot without retroactively tuning a failed hypothesis would be:
+
+Chestnut disease-severity concordance audit
+
+Freeze before looking at the outcome:
+Define disease severity as the dependent variable and predefine one molecular measurement family—e.g. expression-derived aggregate signal or a prespecified published resistance-associated feature set.
+
+Then:
+
+Select a published-data cohort whose biological samples and disease/severity labels can be independently mapped.
+
+Establish the accession/sample/phenotype crosswalk before molecular association testing.
+
+Keep repeated sequencing runs nested within their biological sample rather than treating runs as independent observations.
+
+Predefine the statistical test and covariates.
+
+Test whether the molecular measurement differs monotonically or otherwise systematically with the published disease-severity phenotype.
+
+Hold out a genuinely independent published cohort if one can be established.
+
+Report the result whether positive, null, or contradictory.
+
+Crucially, the SRR21681158 discrepancy should not determine the hypothesis. It can remain a separate reproducibility/curation result. The biological test should be defined from the phenotype question first.
+
+If no adequately linked phenotype cohort can be established, the correct outcome is not to manufacture one from the 213/330 counts; the project should remain a data-resource audit rather than claiming a resistance discovery.
+
+Overall readiness
+
+Current ISEF-style readiness: NOT READY for a biological-discovery claim.
+
+The project has a credible data-audit foundation and at least one concrete, reproducible curation finding. But the central scientific gates—new biological discovery, fair benchmark comparison, and independent frozen phenotype validation—are presently failures, not near-passes.
+
+The most defensible competition framing at this stage is therefore “published chestnut genomic-data provenance/curation audit with a proposed phenotype-linked validation analysis,” rather than “new chestnut blight-resistance discovery.”
+
+The decisive next evidence is not more manifest counting. It is a predefined phenotype-linked analysis on correctly resolved biological sample units, followed by genuinely independent frozen validation
