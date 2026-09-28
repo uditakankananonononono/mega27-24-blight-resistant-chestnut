@@ -9,7 +9,7 @@
   "ena_run_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR21681158&result=read_run&fields=run_accession%2Csample_accession%2Csample_alias%2Csample_title%2Cstudy_accession%2Clibrary_strategy%2Cscientific_name&format=tsv",
   "ena_study_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA883560&result=read_run&fields=run_accession%2Csample_accession%2Csample_alias%2Csample_title%2Clibrary_strategy&format=tsv",
   "figshare_dataset_url": "https://springernature.figshare.com/articles/dataset/Comprehensive_curation_and_validation_of_genomic_datasets_for_chestnut/27060067",
-  "finding": "The matrix-only SRR21681158 is a live ENA Castanea mollissima RNA-Seq run (sample SAMN30971621, alias Z90, study PRJNA883560); all 30 study run IDs appear in the Figshare expression matrix, but this particular run lacks a Supplementary Table 1 row. The suffix-labeled SRR8383229 resolves with matching SHW-Gall-A2 context.",
+  "finding": "The matrix-only SRR21681158 is a live ENA Castanea mollissima RNA-Seq run (sample SAMN30971621, alias Z90, study PRJNA883560); all 30 study run IDs appear in the Figshare expression matrix, but they correspond to 10 ENA sample accessions (three runs each). The matrix-only run shares its ENA sample accession with two Table S1-annotated runs, yet lacks its own S1 row. The suffix-labeled SRR8383229 resolves with matching SHW-Gall-A2 context.",
   "gate_credit": {
     "audited_derivations": 0,
     "external_services": 0,
@@ -18,7 +18,7 @@
   },
   "limits": [
     "ENA metadata corroborates public run identity and study context, not the matrix values or raw-read payload quality.",
-    "The source does not explain S1 omission, and one run ID is not necessarily one independent biological specimen; do not call the run invalid.",
+    "The source does not explain S1 omission; one run ID is not one independent biological sample in this 30-run/10-sample study. Do not call the run invalid.",
     "No genotype, phenotypic resistance, strongest comparator, biological discovery or gate credit."
   ],
   "matrix_only_ena_record": {
@@ -30,6 +30,14 @@
     "scientific_name": "Castanea mollissima",
     "study_accession": "PRJNA883560"
   },
+  "matrix_only_run_same_sample_sibling_runs_in_supplement": [
+    "SRR21681184",
+    "SRR21681185"
+  ],
+  "runs_per_sample": {
+    "3": 10
+  },
+  "study_distinct_sample_accessions": 10,
   "study_run_count": 30,
   "study_run_overlap_with_matrix": 30,
   "suffix_label_ena_record": {
